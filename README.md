@@ -4,7 +4,7 @@ quantum computing, qiskit, pennylane, quantum algorithms, quantum gates, grover 
 
 <div align="center">
 
-# ⚛️ Quantum Concepts — Hands-On Lab Series
+# ⚛️ Quantum Concepts - Hands-On Lab Series
 
 ### *From First Principles to Quantum Algorithms: A Practitioner's Journey*
 
@@ -23,13 +23,13 @@ quantum computing, qiskit, pennylane, quantum algorithms, quantum gates, grover 
 
 ---
 
-## 🌌 Why Quantum Computing — and Why Now?
+## 🌌 Why Quantum Computing - and Why Now?
 
-We are living through a technological inflection point. Quantum computers — machines that harness superposition, entanglement, and interference — are transitioning from laboratory curiosity to practical tools capable of solving problems that would take classical supercomputers longer than the age of the universe. IBM, Google, IonQ, and dozens of startups are racing to build fault-tolerant quantum hardware. Governments worldwide are investing billions. **The question is no longer *if* quantum computing will matter — it's whether *you* will be ready when it does.**
+We are living through a technological inflection point. Quantum computers - machines that harness superposition, entanglement, and interference - are transitioning from laboratory curiosity to practical tools capable of solving problems that would take classical supercomputers longer than the age of the universe. IBM, Google, IonQ, and dozens of startups are racing to build fault-tolerant quantum hardware. Governments worldwide are investing billions. **The question is no longer *if* quantum computing will matter - it's whether *you* will be ready when it does.**
 
-This repository is your hands-on entry point. Across **15 carefully structured Jupyter notebooks**, you will travel from the strange, counterintuitive physics of the quantum world — double-slit experiments, spinning electrons, wave-particle duality — all the way through to implementing real quantum algorithms in **Qiskit** and **PennyLane**, the two dominant quantum programming frameworks. Every concept is paired with runnable code so you can *see* the quantum world, not just read about it.
+This repository is your hands-on entry point. Across **15 carefully structured Jupyter notebooks**, you will travel from the strange, counterintuitive physics of the quantum world - double-slit experiments, spinning electrons, wave-particle duality - all the way through to implementing real quantum algorithms in **Qiskit** and **PennyLane**, the two dominant quantum programming frameworks. Every concept is paired with runnable code so you can *see* the quantum world, not just read about it.
 
-Whether you are a **student** taking your first quantum course, a **researcher** adding quantum tools to your repertoire, or an **engineer** preparing for quantum hackathons and industry challenges, this series is designed to grow with you. No prior quantum knowledge is assumed — only curiosity, a Python environment, and the willingness to have your classical intuitions pleasantly shattered.
+Whether you are a **student** taking your first quantum course, a **researcher** adding quantum tools to your repertoire, or an **engineer** preparing for quantum hackathons and industry challenges, this series is designed to grow with you. No prior quantum knowledge is assumed - only curiosity, a Python environment, and the willingness to have your classical intuitions pleasantly shattered.
 
 ---
 
@@ -52,39 +52,39 @@ The notebooks follow a deliberate three-act structure. Think of it as a **quantu
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
-║  ACT 1 — THE PHYSICS (Notebooks 1–6)                            ║
+║  ACT 1 - THE PHYSICS (Notebooks 1–6)                            ║
 ║  "Understand the rules of the game before you play"             ║
 ║  Quantum mechanics foundations, pure and mixed states,          ║
 ║  entanglement, noise, information theory                        ║
 ╠══════════════════════════════════════════════════════════════════╣
-║  ACT 2 — THE TOOLS (Notebooks 7–11)                             ║
+║  ACT 2 - THE TOOLS (Notebooks 7–11)                             ║
 ║  "Learn to speak the language of quantum machines"              ║
 ║  Quantum gates, circuits, Qiskit, PennyLane, simulators         ║
 ╠══════════════════════════════════════════════════════════════════╣
-║  ACT 3 — THE ALGORITHMS (Notebooks 12–15)                       ║
+║  ACT 3 - THE ALGORITHMS (Notebooks 12–15)                       ║
 ║  "Build things that have real quantum advantage"                ║
 ║  Oracles, Deutsch-Jozsa, Bernstein-Vazirani, Simon's,           ║
-║  Grover's search — the canonical quantum speedups               ║
+║  Grover's search - the canonical quantum speedups               ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
-Complete the acts in order. Each notebook builds on the last. By the end you will have a coherent mental model that connects the physics to the math to the code — the trifecta that separates practitioners from onlookers.
+Complete the acts in order. Each notebook builds on the last. By the end you will have a coherent mental model that connects the physics to the math to the code - the trifecta that separates practitioners from onlookers.
 
 ---
 
-## 📖 Notebook Series — What You'll Learn
+## 📖 Notebook Series - What You'll Learn
 
-### 🔬 ACT 1 — Quantum Physics Foundations
+### 🔬 ACT 1 - Quantum Physics Foundations
 
 ---
 
-#### [Hands-On 1 & 2 — Double Slit Experiment & Stern-Gerlach](Handson1&2_Double_Slit_and_Stern_Gerlach.ipynb) · [`README`](README_Handson1_2.md)
+#### [Hands-On 1 & 2 - Double Slit Experiment & Stern-Gerlach](Handson1&2_Double_Slit_and_Stern_Gerlach.ipynb) · [`README`](README_Handson1_2.md)
 
 > *"Before you can program a qubit, you must believe it exists."*
 
-The double-slit experiment is arguably the most profound experiment in all of science. A single electron, fired at a barrier with two slits, produces an interference pattern — as if it passed through both slits simultaneously. This is not a trick or an approximation; it is the raw, undeniable signature of quantum superposition.
+The double-slit experiment is arguably the most profound experiment in all of science. A single electron, fired at a barrier with two slits, produces an interference pattern - as if it passed through both slits simultaneously. This is not a trick or an approximation; it is the raw, undeniable signature of quantum superposition.
 
-The Stern-Gerlach experiment takes this further: passing silver atoms through an inhomogeneous magnetic field reveals that spin — an intrinsic quantum property with no classical analogue — is fundamentally discrete and directional.
+The Stern-Gerlach experiment takes this further: passing silver atoms through an inhomogeneous magnetic field reveals that spin - an intrinsic quantum property with no classical analogue - is fundamentally discrete and directional.
 
 **What you'll learn:**
 - Why classical probability cannot explain quantum interference
@@ -92,19 +92,19 @@ The Stern-Gerlach experiment takes this further: passing silver atoms through an
 - Spin quantisation and why it matters for qubit design
 - Simulating both experiments from scratch with NumPy and Matplotlib
 
-**How this helps your journey:** Every qubit in every quantum computer is a physical realisation of the spin-½ system studied here. You are not just doing history — you are meeting the hardware.
+**How this helps your journey:** Every qubit in every quantum computer is a physical realisation of the spin-½ system studied here. You are not just doing history - you are meeting the hardware.
 
 ---
 
-#### [Hands-On 3 — QM Postulates, Bra-Ket & Bloch Sphere](Handson3_QMPostulates_BraKet_Bloch.ipynb) · [`README`](README_Handson3.md)
+#### [Hands-On 3 - QM Postulates, Bra-Ket & Bloch Sphere](Handson3_QMPostulates_BraKet_Bloch.ipynb) · [`README`](README_Handson3.md)
 
 > *"Dirac's bra-ket notation is the lingua franca of quantum computing. Learn it once; use it everywhere."*
 
-Quantum mechanics rests on five postulates. This notebook makes them concrete and computational. You will learn Dirac's elegant bra-ket notation — the language used in every research paper, every textbook, and every quantum programming framework — and visualise the state of a qubit on the Bloch sphere.
+Quantum mechanics rests on five postulates. This notebook makes them concrete and computational. You will learn Dirac's elegant bra-ket notation - the language used in every research paper, every textbook, and every quantum programming framework - and visualise the state of a qubit on the Bloch sphere.
 
 **What you'll learn:**
 - The five postulates of quantum mechanics, coded and visualised
-- How |0⟩ and |1⟩ are just two points on a sphere — and every superposition lives between them
+- How |0⟩ and |1⟩ are just two points on a sphere - and every superposition lives between them
 - Measurement, collapse, and why you can never observe a quantum state without disturbing it
 - Inner products, outer products, and expectation values by hand
 
@@ -112,11 +112,11 @@ Quantum mechanics rests on five postulates. This notebook makes them concrete an
 
 ---
 
-#### [Hands-On 4 — Bloch Sphere & Density Matrix](Handson4_BlochSphere_DensityMatrix.ipynb) · [`README`](README_Handson4.md)
+#### [Hands-On 4 - Bloch Sphere & Density Matrix](Handson4_BlochSphere_DensityMatrix.ipynb) · [`README`](README_Handson4.md)
 
 > *"Pure states are the ideal. Density matrices are the reality."*
 
-Real quantum systems are never perfectly isolated. When a qubit interacts with its environment, it becomes entangled with countless uncontrollable degrees of freedom, and you can no longer describe it with a single state vector. Enter the **density matrix** — the most general description of a quantum state, able to capture both pure and mixed states in a single mathematical object.
+Real quantum systems are never perfectly isolated. When a qubit interacts with its environment, it becomes entangled with countless uncontrollable degrees of freedom, and you can no longer describe it with a single state vector. Enter the **density matrix** - the most general description of a quantum state, able to capture both pure and mixed states in a single mathematical object.
 
 **What you'll learn:**
 - Constructing and interpreting density matrices
@@ -128,11 +128,11 @@ Real quantum systems are never perfectly isolated. When a qubit interacts with i
 
 ---
 
-#### [Hands-On 5 — Purity, Coherence & Entanglement](Handson5_Purity_Coherence_Entanglement.ipynb) · [`README`](README_Handson5.md)
+#### [Hands-On 5 - Purity, Coherence & Entanglement](Handson5_Purity_Coherence_Entanglement.ipynb) · [`README`](README_Handson5.md)
 
 > *"Entanglement is the resource that makes quantum computers powerful. This is where you learn to measure it."*
 
-Quantum coherence is what makes superposition possible. Entanglement is what makes quantum computers exponentially more powerful than classical ones. In this notebook you will quantify both — computing purity, coherence measures, entanglement entropy, and concurrence for real quantum states.
+Quantum coherence is what makes superposition possible. Entanglement is what makes quantum computers exponentially more powerful than classical ones. In this notebook you will quantify both - computing purity, coherence measures, entanglement entropy, and concurrence for real quantum states.
 
 **What you'll learn:**
 - Purity: how to measure how "quantum" a state is
@@ -145,7 +145,7 @@ Quantum coherence is what makes superposition possible. Entanglement is what mak
 
 ---
 
-#### [Hands-On 6 — Noise & Quantum Information Measures](Handson6_Noise_and_Information_Measures.ipynb) · [`README`](README_Handson6.md)
+#### [Hands-On 6 - Noise & Quantum Information Measures](Handson6_Noise_and_Information_Measures.ipynb) · [`README`](README_Handson6.md)
 
 > *"The enemy of every quantum computation is noise. Know your enemy."*
 
@@ -157,19 +157,19 @@ NISQ (Noisy Intermediate-Scale Quantum) computers are called *noisy* for a reaso
 - T₁ (relaxation) and T₂ (dephasing) times: the fundamental hardware metrics
 - Ten information measures: von Neumann entropy, relative entropy, mutual information, Holevo bound, and more
 
-**How this helps your journey:** Before you can run a quantum algorithm on real hardware, you need to understand noise. This notebook is the foundation for quantum error correction, error mitigation, and noisy simulation — critical skills for any quantum project.
+**How this helps your journey:** Before you can run a quantum algorithm on real hardware, you need to understand noise. This notebook is the foundation for quantum error correction, error mitigation, and noisy simulation - critical skills for any quantum project.
 
 ---
 
-### ⚙️ ACT 2 — Quantum Programming Tools
+### ⚙️ ACT 2 - Quantum Programming Tools
 
 ---
 
-#### [Hands-On 7 — Quantum Gates Deep Dive](Handson7_Quantum_Gates_Demo.ipynb) · [`README`](README_Handson7.md)
+#### [Hands-On 7 - Quantum Gates Deep Dive](Handson7_Quantum_Gates_Demo.ipynb) · [`README`](README_Handson7.md)
 
 > *"Quantum gates are rotations. Once you see that, everything clicks."*
 
-Classical computers use AND, OR, and NOT gates to transform bits. Quantum computers use unitary matrices to rotate qubits on the Bloch sphere. This notebook gives you an exhaustive, hands-on tour of every important quantum gate — from Pauli operators to the universally expressive set of single-qubit rotations and two-qubit entanglers.
+Classical computers use AND, OR, and NOT gates to transform bits. Quantum computers use unitary matrices to rotate qubits on the Bloch sphere. This notebook gives you an exhaustive, hands-on tour of every important quantum gate - from Pauli operators to the universally expressive set of single-qubit rotations and two-qubit entanglers.
 
 **What you'll learn:**
 - Single-qubit gates: X (bit flip), Y, Z (phase flip), H (Hadamard), S, T, Rx, Ry, Rz
@@ -178,15 +178,15 @@ Classical computers use AND, OR, and NOT gates to transform bits. Quantum comput
 - Gate decomposition and universality: why {H, T, CNOT} can approximate any quantum computation
 - The no-cloning theorem: why you can't copy a qubit
 
-**How this helps your journey:** Every quantum circuit — from a 3-qubit toy example to a 100-qubit Grover search — is built from these gates. This is your vocabulary lesson.
+**How this helps your journey:** Every quantum circuit - from a 3-qubit toy example to a 100-qubit Grover search - is built from these gates. This is your vocabulary lesson.
 
 ---
 
-#### [Hands-On 8 — Quantum Circuits, Entangling Gates & WHT](Handson8_QuantumCircuits_EntanglingGates_WHT.ipynb) · [`README`](README_Handson8.md)
+#### [Hands-On 8 - Quantum Circuits, Entangling Gates & WHT](Handson8_QuantumCircuits_EntanglingGates_WHT.ipynb) · [`README`](README_Handson8.md)
 
 > *"A quantum circuit is a recipe. This notebook teaches you to read and write those recipes."*
 
-Individual gates are words. Quantum circuits are sentences. This notebook moves from single-gate operations to composing multi-qubit circuits, building Bell states, GHZ states, and exploring the Walsh-Hadamard Transform — a quantum operation that plays a central role in many algorithms.
+Individual gates are words. Quantum circuits are sentences. This notebook moves from single-gate operations to composing multi-qubit circuits, building Bell states, GHZ states, and exploring the Walsh-Hadamard Transform - a quantum operation that plays a central role in many algorithms.
 
 **What you'll learn:**
 - Building and running multi-qubit circuits from first principles
@@ -198,7 +198,7 @@ Individual gates are words. Quantum circuits are sentences. This notebook moves 
 
 ---
 
-#### [Hands-On 9 — Qiskit Introduction](Handson9_Qiskit_Introduction.ipynb) · [`README`](README_Handson9.md)
+#### [Hands-On 9 - Qiskit Introduction](Handson9_Qiskit_Introduction.ipynb) · [`README`](README_Handson9.md)
 
 > *"Qiskit is IBM's open-source framework for quantum computing. This is your orientation session."*
 
@@ -211,11 +211,11 @@ Qiskit is the world's most widely used quantum programming framework, with over 
 - Reading and interpreting measurement probability distributions
 - Transpiling circuits for real IBM Quantum backends
 
-**How this helps your journey:** Qiskit is the entry point to IBM Quantum's real hardware — the most accessible quantum computers in the world. This notebook puts that access in your hands.
+**How this helps your journey:** Qiskit is the entry point to IBM Quantum's real hardware - the most accessible quantum computers in the world. This notebook puts that access in your hands.
 
 ---
 
-#### [Hands-On 10 — PennyLane Introduction](Handson10_PennyLane_Introduction_Hands_On.ipynb) · [`README`](README_Handson10.md)
+#### [Hands-On 10 - PennyLane Introduction](Handson10_PennyLane_Introduction_Hands_On.ipynb) · [`README`](README_Handson10.md)
 
 > *"PennyLane bridges quantum circuits and machine learning. It is the framework for the quantum AI era."*
 
@@ -232,11 +232,11 @@ PennyLane by Xanadu takes a different approach to quantum programming: it treats
 
 ---
 
-#### [Hands-On 11 — Qiskit vs PennyLane: Synthesis & Comparison](Handson11_Qiskit_PennyLane_Synthesis_and_Comparison.ipynb) · [`README`](README_Handson11.md)
+#### [Hands-On 11 - Qiskit vs PennyLane: Synthesis & Comparison](Handson11_Qiskit_PennyLane_Synthesis_and_Comparison.ipynb) · [`README`](README_Handson11.md)
 
 > *"Knowing both frameworks means you can pick the right tool for every problem."*
 
-Qiskit and PennyLane are complementary, not competing. This notebook runs the same quantum algorithms in both frameworks side-by-side, building your ability to read, write, and translate between them — a crucial skill for collaborating across the quantum ecosystem.
+Qiskit and PennyLane are complementary, not competing. This notebook runs the same quantum algorithms in both frameworks side-by-side, building your ability to read, write, and translate between them - a crucial skill for collaborating across the quantum ecosystem.
 
 **What you'll learn:**
 - Side-by-side implementation of Bell state preparation, quantum teleportation, and variational circuits
@@ -248,15 +248,15 @@ Qiskit and PennyLane are complementary, not competing. This notebook runs the sa
 
 ---
 
-### 🏆 ACT 3 — Quantum Algorithms with Real Advantage
+### 🏆 ACT 3 - Quantum Algorithms with Real Advantage
 
 ---
 
-#### [Hands-On 12 — Oracles, Primitives & Deutsch-Jozsa](Handson12_Qiskit_Oracles_Primitives_DJ.ipynb) · [`README`](README_Handson12b.md)
+#### [Hands-On 12 - Oracles, Primitives & Deutsch-Jozsa](Handson12_Qiskit_Oracles_Primitives_DJ.ipynb) · [`README`](README_Handson12b.md)
 
 > *"The Deutsch-Jozsa algorithm was the first proof that quantum computers can outperform classical ones. Exponential speedup, guaranteed."*
 
-Quantum oracles are black boxes that encode a function into a quantum circuit via phase kickback. The Deutsch-Jozsa algorithm uses a single oracle query — where a classical computer would need up to 2^(n-1)+1 — to determine whether a function is constant or balanced. It is a clean, elegant demonstration of quantum parallelism.
+Quantum oracles are black boxes that encode a function into a quantum circuit via phase kickback. The Deutsch-Jozsa algorithm uses a single oracle query - where a classical computer would need up to 2^(n-1)+1 - to determine whether a function is constant or balanced. It is a clean, elegant demonstration of quantum parallelism.
 
 **What you'll learn:**
 - Oracle construction: encoding Boolean functions as unitary operators
@@ -269,11 +269,11 @@ Quantum oracles are black boxes that encode a function into a quantum circuit vi
 
 ---
 
-#### [Hands-On 13 — Bernstein-Vazirani Algorithm](Handson13_Bernstein_Vazirani_Qiskit.ipynb) · [`README`](README_Handson13.md)
+#### [Hands-On 13 - Bernstein-Vazirani Algorithm](Handson13_Bernstein_Vazirani_Qiskit.ipynb) · [`README`](README_Handson13.md)
 
-> *"One query. Any string length. The hidden secret revealed instantly — that is the Bernstein-Vazirani guarantee."*
+> *"One query. Any string length. The hidden secret revealed instantly - that is the Bernstein-Vazirani guarantee."*
 
-The Bernstein-Vazirani algorithm finds a hidden binary string `s` encoded in an oracle using exactly **one** quantum query, regardless of how long `s` is. Classically, finding all n bits requires n queries. This is a clean, provable quantum speedup — not asymptotic, but exact.
+The Bernstein-Vazirani algorithm finds a hidden binary string `s` encoded in an oracle using exactly **one** quantum query, regardless of how long `s` is. Classically, finding all n bits requires n queries. This is a clean, provable quantum speedup - not asymptotic, but exact.
 
 **What you'll learn:**
 - The Bernstein-Vazirani problem: finding a hidden dot-product string
@@ -282,15 +282,15 @@ The Bernstein-Vazirani algorithm finds a hidden binary string `s` encoded in an 
 - Running on a noisy simulator and reading the results
 - The relationship between BV and the Deutsch-Jozsa algorithm
 
-**How this helps your journey:** BV is a stepping stone to understanding Simon's algorithm and Shor's algorithm. It also appears in cryptographic settings — making it directly relevant to quantum-safe security research.
+**How this helps your journey:** BV is a stepping stone to understanding Simon's algorithm and Shor's algorithm. It also appears in cryptographic settings - making it directly relevant to quantum-safe security research.
 
 ---
 
-#### [Hands-On 14 — Simon's Algorithm](Handson14_Simons_Algorithm_Qiskit.ipynb) · [`README`](README_Handson14.md)
+#### [Hands-On 14 - Simon's Algorithm](Handson14_Simons_Algorithm_Qiskit.ipynb) · [`README`](README_Handson14.md)
 
 > *"Simon's algorithm was the inspiration for Shor's algorithm. Master this and Shor's becomes intuitive."*
 
-Simon's algorithm solves a hidden symmetry problem exponentially faster than any classical algorithm. Given an oracle that promises f(x) = f(x⊕s) for some hidden string s, Simon's algorithm finds s using O(n) quantum queries — versus O(2^(n/2)) classically. This was the first exponential quantum speedup for a natural problem, and it directly inspired Shor's celebrated factoring algorithm.
+Simon's algorithm solves a hidden symmetry problem exponentially faster than any classical algorithm. Given an oracle that promises f(x) = f(x⊕s) for some hidden string s, Simon's algorithm finds s using O(n) quantum queries - versus O(2^(n/2)) classically. This was the first exponential quantum speedup for a natural problem, and it directly inspired Shor's celebrated factoring algorithm.
 
 **What you'll learn:**
 - Simon's problem: the hidden XOR-period promise
@@ -300,25 +300,25 @@ Simon's algorithm solves a hidden symmetry problem exponentially faster than any
 - Noisy simulation on Qiskit and fidelity analysis
 - The conceptual bridge from Simon's to Shor's algorithm
 
-**How this helps your journey:** Understanding Simon's algorithm is the intellectual prerequisite for Shor's algorithm — the quantum threat to RSA encryption. If you want to work in quantum cryptography or post-quantum security, this notebook is essential.
+**How this helps your journey:** Understanding Simon's algorithm is the intellectual prerequisite for Shor's algorithm - the quantum threat to RSA encryption. If you want to work in quantum cryptography or post-quantum security, this notebook is essential.
 
 ---
 
-#### [Hands-On 15 — Grover's Search Algorithm](Handson15_Grover_Qiskit.ipynb) · [`README`](README_Handson15.md)
+#### [Hands-On 15 - Grover's Search Algorithm](Handson15_Grover_Qiskit.ipynb) · [`README`](README_Handson15.md)
 
-> *"Searching a billion-entry database in 31,623 steps instead of 500 million. That is Grover's quadratic speedup — and it is real."*
+> *"Searching a billion-entry database in 31,623 steps instead of 500 million. That is Grover's quadratic speedup - and it is real."*
 
-Grover's algorithm is the most practically relevant quantum algorithm for near-term hardware. It searches an unstructured database of N items in O(√N) queries — a quadratic speedup over classical O(N) search. For a database of a trillion entries, Grover needs ~1 million queries; classical search needs 500 billion. The algorithm uses **amplitude amplification**: iteratively rotating the quantum state towards the target answer.
+Grover's algorithm is the most practically relevant quantum algorithm for near-term hardware. It searches an unstructured database of N items in O(√N) queries - a quadratic speedup over classical O(N) search. For a database of a trillion entries, Grover needs ~1 million queries; classical search needs 500 billion. The algorithm uses **amplitude amplification**: iteratively rotating the quantum state towards the target answer.
 
 **What you'll learn:**
 - The oracle: marking the target item with a phase flip
 - The diffusion operator (Grover diffusion): the "inversion about the mean" step
-- Optimal iteration count: π/4 × √N — too few or too many iterations reduce success probability
+- Optimal iteration count: π/4 × √N - too few or too many iterations reduce success probability
 - Full Qiskit implementation with measurement and visualisation
 - Multi-target Grover and generalisations
 - Applications: database search, satisfiability, optimisation
 
-**How this helps your journey:** Grover's algorithm is a building block for dozens of quantum applications — from quantum optimisation and cryptanalysis to combinatorial search in AI. It is the most asked-about algorithm in quantum hackathons.
+**How this helps your journey:** Grover's algorithm is a building block for dozens of quantum applications - from quantum optimisation and cryptanalysis to combinatorial search in AI. It is the most asked-about algorithm in quantum hackathons.
 
 ---
 
@@ -340,17 +340,17 @@ This series was explicitly designed to prepare participants for real quantum com
 
 After completing this series, you will have the skills to tackle:
 
-1. **Quantum Optimisation** — Use Grover's algorithm (Notebook 15) to search combinatorial solution spaces. Extend to QAOA using PennyLane (Notebooks 10–11).
+1. **Quantum Optimisation** - Use Grover's algorithm (Notebook 15) to search combinatorial solution spaces. Extend to QAOA using PennyLane (Notebooks 10–11).
 
-2. **Quantum Machine Learning** — Build a variational quantum classifier using PennyLane's differentiable programming (Notebooks 10–11). Train it on a real dataset.
+2. **Quantum Machine Learning** - Build a variational quantum classifier using PennyLane's differentiable programming (Notebooks 10–11). Train it on a real dataset.
 
-3. **Quantum Cryptography Simulator** — Implement BB84 quantum key distribution using the gate primitives from Notebooks 7–9. Simulate eavesdropping and detection.
+3. **Quantum Cryptography Simulator** - Implement BB84 quantum key distribution using the gate primitives from Notebooks 7–9. Simulate eavesdropping and detection.
 
-4. **Quantum Error Mitigation** — Apply zero-noise extrapolation and probabilistic error cancellation to the noisy simulations in Notebook 6, building on the Kraus operator formalism.
+4. **Quantum Error Mitigation** - Apply zero-noise extrapolation and probabilistic error cancellation to the noisy simulations in Notebook 6, building on the Kraus operator formalism.
 
-5. **Quantum Oracle Design** — Design custom oracles for search problems (Notebooks 12–14), then apply Grover's amplitude amplification for structured problem solving.
+5. **Quantum Oracle Design** - Design custom oracles for search problems (Notebooks 12–14), then apply Grover's amplitude amplification for structured problem solving.
 
-6. **Simon's → Shor's Bridge Project** — Using Notebook 14 as a foundation, implement a small-scale version of Shor's factoring algorithm in Qiskit.
+6. **Simon's → Shor's Bridge Project** - Using Notebook 14 as a foundation, implement a small-scale version of Shor's factoring algorithm in Qiskit.
 
 ### 💡 How These Concepts Connect to Industry
 
@@ -567,7 +567,7 @@ Please follow the existing notebook style: physics motivation → mathematics �
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details. You are free to use, modify, and distribute this material for educational purposes.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details. You are free to use, modify, and distribute this material for educational purposes.
 
 ---
 

@@ -11,11 +11,11 @@
 
 ## Overview
 
-Imagine you have a mysterious black box — a machine that takes an $n$-bit string as input and spits out another $n$-bit string as output. Someone has secretly programmed it so that exactly two different inputs always produce the same output: if input $x$ gives output $w$, then input $x \oplus s$ (where $s$ is a hidden "secret" string and $\oplus$ is bitwise XOR) also gives $w$. Your job is to figure out what $s$ is, using as few queries to the box as possible. This is **Simon's Problem** — and it sits at the very heart of quantum computing's advantage over classical machines.
+Imagine you have a mysterious black box - a machine that takes an $n$-bit string as input and spits out another $n$-bit string as output. Someone has secretly programmed it so that exactly two different inputs always produce the same output: if input $x$ gives output $w$, then input $x \oplus s$ (where $s$ is a hidden "secret" string and $\oplus$ is bitwise XOR) also gives $w$. Your job is to figure out what $s$ is, using as few queries to the box as possible. This is **Simon's Problem** - and it sits at the very heart of quantum computing's advantage over classical machines.
 
-A classical computer trying to crack this puzzle must play a guessing game. Outputs look random, so you have no choice but to query the box repeatedly and hope that two of your queries happen to land on a colliding pair. By a birthday-paradox argument, you are likely to need around $\Omega(2^{n/2})$ queries — a number that grows *exponentially* with $n$. For even a modest $n = 50$, that means more queries than there are atoms in your body. **Simon's quantum algorithm, by contrast, solves the same problem with only $O(n)$ queries** — a number that grows merely linearly. That exponential gap was, when Simon published it in 1994, the first *provable* superpolynomial separation between quantum and classical query complexity. Think of it like this: the classical approach is searching for a matching pair of socks in a dark room by picking up one at a time; the quantum approach turns on a diffuse light that makes matching pairs literally glow, so you notice them all at once.
+A classical computer trying to crack this puzzle must play a guessing game. Outputs look random, so you have no choice but to query the box repeatedly and hope that two of your queries happen to land on a colliding pair. By a birthday-paradox argument, you are likely to need around $\Omega(2^{n/2})$ queries - a number that grows *exponentially* with $n$. For even a modest $n = 50$, that means more queries than there are atoms in your body. **Simon's quantum algorithm, by contrast, solves the same problem with only $O(n)$ queries** - a number that grows merely linearly. That exponential gap was, when Simon published it in 1994, the first *provable* superpolynomial separation between quantum and classical query complexity. Think of it like this: the classical approach is searching for a matching pair of socks in a dark room by picking up one at a time; the quantum approach turns on a diffuse light that makes matching pairs literally glow, so you notice them all at once.
 
-The magic ingredient is **quantum interference**. When you query the oracle in superposition, both $x$ and $x \oplus s$ are in flight simultaneously and both write the *same* output value. Because their contributions to any downstream measurement are now *indistinguishable*, their quantum amplitudes add together. A second round of Hadamard gates then steers that combined amplitude: for every candidate measurement outcome $z$ where $z \cdot s \equiv 1 \pmod{2}$, the two contributions arrive with *opposite signs* and cancel to zero (destructive interference). For every $z$ where $z \cdot s \equiv 0 \pmod{2}$, they add and survive (constructive interference). Each run of the circuit therefore hands you a random linear equation about $s$ — for free. Collect $n-1$ independent equations, solve a tiny system of linear algebra over GF(2), and you have $s$. This notebook builds the whole story from first principles, in both bare NumPy and in Qiskit, so the interference is never hidden behind a framework.
+The magic ingredient is **quantum interference**. When you query the oracle in superposition, both $x$ and $x \oplus s$ are in flight simultaneously and both write the *same* output value. Because their contributions to any downstream measurement are now *indistinguishable*, their quantum amplitudes add together. A second round of Hadamard gates then steers that combined amplitude: for every candidate measurement outcome $z$ where $z \cdot s \equiv 1 \pmod{2}$, the two contributions arrive with *opposite signs* and cancel to zero (destructive interference). For every $z$ where $z \cdot s \equiv 0 \pmod{2}$, they add and survive (constructive interference). Each run of the circuit therefore hands you a random linear equation about $s$ - for free. Collect $n-1$ independent equations, solve a tiny system of linear algebra over GF(2), and you have $s$. This notebook builds the whole story from first principles, in both bare NumPy and in Qiskit, so the interference is never hidden behind a framework.
 
 ---
 
@@ -50,27 +50,27 @@ for a fixed, unknown **secret string** $s \in \{0,1\}^n$. Here $\oplus$ denotes 
 
 ### Classical Complexity
 
-A classical algorithm learns nothing from a single query. To find a *collision* (two inputs $x \neq y$ with $f(x) = f(y)$), which immediately reveals $s = x \oplus y$, it must sample enough inputs that two of them land in the same coset. By the birthday paradox, this requires $\Omega(2^{n/2})$ queries in the worst case — exponential in $n$.
+A classical algorithm learns nothing from a single query. To find a *collision* (two inputs $x \neq y$ with $f(x) = f(y)$), which immediately reveals $s = x \oplus y$, it must sample enough inputs that two of them land in the same coset. By the birthday paradox, this requires $\Omega(2^{n/2})$ queries in the worst case - exponential in $n$.
 
 ### The Quantum Circuit
 
-The Simon circuit uses two $n$-qubit registers — an *input* register and an *output* register — and proceeds in five steps:
+The Simon circuit uses two $n$-qubit registers - an *input* register and an *output* register - and proceeds in five steps:
 
-**Step 1 — Create a uniform superposition** by applying $H^{\otimes n}$ to the input register:
+**Step 1 - Create a uniform superposition** by applying $H^{\otimes n}$ to the input register:
 
 $$|\psi_1\rangle = \frac{1}{\sqrt{2^n}} \sum_{x \in \{0,1\}^n} |x\rangle |0\rangle$$
 
-**Step 2 — Query the oracle** $U_f : |x\rangle|y\rangle \mapsto |x\rangle|y \oplus f(x)\rangle$:
+**Step 2 - Query the oracle** $U_f : |x\rangle|y\rangle \mapsto |x\rangle|y \oplus f(x)\rangle$:
 
 $$|\psi_2\rangle = \frac{1}{\sqrt{2^n}} \sum_{x} |x\rangle |f(x)\rangle$$
 
-The input and output registers are now entangled. Crucially, inputs $x_0$ and $x_0 \oplus s$ carry the *same* output label — they have become indistinguishable.
+The input and output registers are now entangled. Crucially, inputs $x_0$ and $x_0 \oplus s$ carry the *same* output label - they have become indistinguishable.
 
-**Step 3 — Apply Hadamards again** to the input register. Using $H^{\otimes n}|x\rangle = \frac{1}{\sqrt{2^n}} \sum_z (-1)^{x \cdot z}|z\rangle$:
+**Step 3 - Apply Hadamards again** to the input register. Using $H^{\otimes n}|x\rangle = \frac{1}{\sqrt{2^n}} \sum_z (-1)^{x \cdot z}|z\rangle$:
 
 $$|\psi_3\rangle = \frac{1}{2^n} \sum_x \sum_z (-1)^{x \cdot z} |z\rangle |f(x)\rangle$$
 
-**Step 4 — Compute the amplitude** of a specific outcome $|z\rangle|w\rangle$. For a two-to-one $f$ with image value $w$, the contributing inputs are exactly the pair $\{x_0,\; x_0 \oplus s\}$:
+**Step 4 - Compute the amplitude** of a specific outcome $|z\rangle|w\rangle$. For a two-to-one $f$ with image value $w$, the contributing inputs are exactly the pair $\{x_0,\; x_0 \oplus s\}$:
 
 $$\text{amplitude of }|z\rangle|w\rangle = \frac{(-1)^{x_0 \cdot z}}{2^n}\Big[1 + (-1)^{s \cdot z}\Big]$$
 
@@ -78,7 +78,7 @@ The bracket is the entire story:
 
 $$1 + (-1)^{s \cdot z} = \begin{cases} 2 & \text{if } s \cdot z \equiv 0 \pmod{2} \quad \textbf{(constructive interference)} \\ 0 & \text{if } s \cdot z \equiv 1 \pmod{2} \quad \textbf{(destructive interference)} \end{cases}$$
 
-**Step 5 — Measure** the input register. Every outcome $z$ you can ever observe satisfies:
+**Step 5 - Measure** the input register. Every outcome $z$ you can ever observe satisfies:
 
 $$\boxed{z \cdot s \equiv 0 \pmod{2}}$$
 
@@ -90,16 +90,16 @@ Each circuit run produces a random $z$ from the orthogonal complement of $s$. St
 
 $$Z \,\vec{s} = \vec{0} \pmod{2}$$
 
-The null space of $Z$ over GF(2) is exactly $\{0^n, s\}$, so the unique non-zero solution is $s$. If instead the rows span the full $n$-dimensional space (rank = $n$), the null space is trivial, confirming $s = 0^n$ (one-to-one function). Gaussian elimination over GF(2) accomplishes this in $O(n^3)$ classical bit operations — negligible cost.
+The null space of $Z$ over GF(2) is exactly $\{0^n, s\}$, so the unique non-zero solution is $s$. If instead the rows span the full $n$-dimensional space (rank = $n$), the null space is trivial, confirming $s = 0^n$ (one-to-one function). Gaussian elimination over GF(2) accomplishes this in $O(n^3)$ classical bit operations - negligible cost.
 
 ### Quantum Speedup Summary
 
 | | Oracle Queries | Post-processing |
 |---|---|---|
-| **Classical (best)** | $\Omega(2^{n/2})$ | — |
+| **Classical (best)** | $\Omega(2^{n/2})$ | - |
 | **Simon (quantum)** | $O(n)$ | $O(n^3)$ GF(2) solve |
 
-This is an **exponential** separation in query complexity — the first ever proven for any computational problem. It directly inspired Shor's algorithm: replacing the group $(\mathbb{Z}_2)^n$ with $\mathbb{Z}_N$ and the second Hadamard with the Quantum Fourier Transform turns Simon's "find the XOR-period" into Shor's "find the multiplicative period," which enables integer factoring in polynomial time.
+This is an **exponential** separation in query complexity - the first ever proven for any computational problem. It directly inspired Shor's algorithm: replacing the group $(\mathbb{Z}_2)^n$ with $\mathbb{Z}_N$ and the second Hadamard with the Quantum Fourier Transform turns Simon's "find the XOR-period" into Shor's "find the multiplicative period," which enables integer factoring in polynomial time.
 
 ---
 
@@ -120,7 +120,7 @@ This is an **exponential** separation in query complexity — the first ever pro
 
 ### Section 0 · Setup (cells 1–3)
 
-The notebook opens with a top-level markdown cell that summarises the entire algorithm in one equation and one paragraph — a deliberate design choice to give readers an anchor before any code. The setup section then installs Qiskit 2.5.0 and qiskit-aer 0.17.2 *only if they are missing*, using a `try/except ImportError` guard so the cell is fast on re-runs and works equally well in Google Colab and local environments. A second cell imports NumPy and Matplotlib, fixes a global random seed (`np.random.seed(42)`) for reproducibility across the whole course, and sets tasteful Matplotlib defaults (figure size, grid transparency, font size).
+The notebook opens with a top-level markdown cell that summarises the entire algorithm in one equation and one paragraph - a deliberate design choice to give readers an anchor before any code. The setup section then installs Qiskit 2.5.0 and qiskit-aer 0.17.2 *only if they are missing*, using a `try/except ImportError` guard so the cell is fast on re-runs and works equally well in Google Colab and local environments. A second cell imports NumPy and Matplotlib, fixes a global random seed (`np.random.seed(42)`) for reproducibility across the whole course, and sets tasteful Matplotlib defaults (figure size, grid transparency, font size).
 
 **Why it matters:** Setting the seed ensures every student's runs produce identical outputs, which is important when students compare results or follow along with expected values in lecture.
 
@@ -128,7 +128,7 @@ The notebook opens with a top-level markdown cell that summarises the entire alg
 
 ### Section 1 · The Simon Problem (cell 4)
 
-This markdown cell states the problem in full mathematical rigour — the XOR-period promise, both the two-to-one and one-to-one flavours, a concrete 3-qubit worked example ($s = 110_2$), and the birthday-paradox argument for the classical lower bound. It also provides historical context: Simon's 1994 result was the *first provable exponential separation* between quantum and classical query complexity, and it directly inspired Shor's 1994 factoring algorithm.
+This markdown cell states the problem in full mathematical rigour - the XOR-period promise, both the two-to-one and one-to-one flavours, a concrete 3-qubit worked example ($s = 110_2$), and the birthday-paradox argument for the classical lower bound. It also provides historical context: Simon's 1994 result was the *first provable exponential separation* between quantum and classical query complexity, and it directly inspired Shor's 1994 factoring algorithm.
 
 **Why it matters:** Anchoring the algorithm in a concrete problem and a clear classical baseline makes the quantum speedup feel meaningful rather than abstract. Students understand *why* we care before seeing a single gate.
 
@@ -152,13 +152,13 @@ Four small NumPy helper functions are introduced and immediately tested with `as
 
 - `int_to_bits(v, n)` / `bits_to_int(bits)`: convert between integers and LSB-first bit arrays (qubit $j$ carries weight $2^j$).
 - `parity(x)`: XOR of all bits of an integer.
-- `dot_mod2(a, b)`: bitwise inner product mod 2 — the core operation that decides whether a string $z$ survives or is cancelled.
+- `dot_mod2(a, b)`: bitwise inner product mod 2 - the core operation that decides whether a string $z$ survives or is cancelled.
 
 The explicit LSB-first convention and its motivation (qubit $j$ in the array corresponds to qubit $j$ in the circuit) are explained in the surrounding markdown. This avoids the subtle endianness bugs that plague quantum-computing notebooks.
 
 Then `make_simon_function(s, n)` builds a lookup table oracle by walking through inputs, assigning a fresh shuffled output label to each unvisited coset $\{x, x \oplus s\}$. The `verify_function` helper asserts the promise holds and checks the one-to-one / two-to-one condition, making it impossible to accidentally pass a broken oracle to the algorithm.
 
-A concrete peek cell prints the full input/output table for $n=3$, $s=110_2$, showing each input, its output, and its colliding partner — exactly what an opaque oracle would hide from a classical algorithm.
+A concrete peek cell prints the full input/output table for $n=3$, $s=110_2$, showing each input, its output, and its colliding partner - exactly what an opaque oracle would hide from a classical algorithm.
 
 **Why it matters:** Building oracles from scratch, rather than importing them from a library, forces the distinction between the *problem description* (the oracle's job) and the *algorithm's view* (it can only call `f`, not inspect its internals). The shuffle ensures the output looks random, mimicking a truly opaque black box.
 
@@ -185,19 +185,19 @@ Four functions implement the linear-algebra post-processing:
 - `gf2_rref(rows, n)`: reduced row echelon form over GF(2) via Gaussian elimination, returning pivot columns.
 - `gf2_nullspace(rows, n)`: extracts the null-space basis by back-substituting free variables.
 - `solve_simon(zs, n)`: wraps the above to return the secret $s$ (or $0^n$ if the equations reach full rank).
-- `run_simon(f, n, ...)`: the complete Simon driver — samples circuit runs by drawing from the marginal distribution, accumulates linearly independent equations, stops when rank reaches $n-1$ (or $n$ for the one-to-one case), and returns the recovered secret and all collected measurements.
+- `run_simon(f, n, ...)`: the complete Simon driver - samples circuit runs by drawing from the marginal distribution, accumulates linearly independent equations, stops when rank reaches $n-1$ (or $n$ for the one-to-one case), and returns the recovered secret and all collected measurements.
 
-A `demo_simon` wrapper ties everything together: build oracle, verify, marginalise, run, recover, check, and plot — all in one call with colour-coded output (blue: survived, red: cancelled).
+A `demo_simon` wrapper ties everything together: build oracle, verify, marginalise, run, recover, check, and plot - all in one call with colour-coded output (blue: survived, red: cancelled).
 
-**Why it matters:** Showing that the quantum algorithm's output requires a *classical* linear-algebra solver to extract $s$ is important. It prevents the misconception that quantum computers magically "read out" answers — the quantum step provides equations, the classical step solves them.
+**Why it matters:** Showing that the quantum algorithm's output requires a *classical* linear-algebra solver to extract $s$ is important. It prevents the misconception that quantum computers magically "read out" answers - the quantum step provides equations, the classical step solves them.
 
 ---
 
-### Section 6 · Case n = 1 — The Degenerate Warm-Up (cells 15–16)
+### Section 6 · Case n = 1 - The Degenerate Warm-Up (cells 15–16)
 
 For $n=1$, the secret is a single bit. The notebook works through both sub-cases:
 
-- **$s=1$ (two-to-one):** the oracle maps both 0 and 1 to the same value. The circuit *always* measures $z=0$. Since the only equation $0 \cdot s = 0$ is vacuously satisfied by any $s$, we need $n-1 = 0$ independent equations and immediately conclude $s=1$ (the unique non-zero 1-bit string). A measurement of $z=0$ is uninformative in isolation, but *guaranteed* — and the guarantee is itself the information.
+- **$s=1$ (two-to-one):** the oracle maps both 0 and 1 to the same value. The circuit *always* measures $z=0$. Since the only equation $0 \cdot s = 0$ is vacuously satisfied by any $s$, we need $n-1 = 0$ independent equations and immediately conclude $s=1$ (the unique non-zero 1-bit string). A measurement of $z=0$ is uninformative in isolation, but *guaranteed* - and the guarantee is itself the information.
 - **$s=0$ (one-to-one):** the circuit samples $z \in \{0,1\}$ uniformly. Seeing $z=1$ means the equations reached full rank, proving $s=0^n$.
 
 **Why it matters:** The $n=1$ case is small enough to trace by hand, making the edge case of "needing zero independent equations" crystal clear and motivating why the algorithm needs $n-1$ independent measurements in the general case.
@@ -212,7 +212,7 @@ All three non-trivial secrets ($s \in \{01, 10, 11\}$) are demonstrated with `de
 
 ### Section 8 · Case n = 3 (cell 18)
 
-Four distinct secrets ($s \in \{001, 101, 110, 111\}$) are demonstrated. Now the surviving strings form a 2-dimensional plane (four out of eight strings survive), and two independent equations are needed. The plots dramatically illustrate that *exactly half* the strings are wiped out by destructive interference — a direct numerical confirmation of the theory in Section 2.
+Four distinct secrets ($s \in \{001, 101, 110, 111\}$) are demonstrated. Now the surviving strings form a 2-dimensional plane (four out of eight strings survive), and two independent equations are needed. The plots dramatically illustrate that *exactly half* the strings are wiped out by destructive interference - a direct numerical confirmation of the theory in Section 2.
 
 ---
 
@@ -251,7 +251,7 @@ Four progressively harder exercises, each with a deliberately broken placeholder
 
 A checker cell (`check_exercises`) runs all four and prints pass/fail. Collapsible `<details>` blocks contain full reference solutions.
 
-**Why it matters:** Active problem-solving on the core operations — consistency checking, oracle construction, linear independence counting — turns passive reading into genuine understanding. The empirical exercise (E4) connects theory to simulation in a way that motivates the $O(n)$ claim with real numbers.
+**Why it matters:** Active problem-solving on the core operations - consistency checking, oracle construction, linear independence counting - turns passive reading into genuine understanding. The empirical exercise (E4) connects theory to simulation in a way that motivates the $O(n)$ claim with real numbers.
 
 ---
 
@@ -259,7 +259,7 @@ A checker cell (`check_exercises`) runs all four and prints pass/fail. Collapsib
 
 `simon_playground(n, s)` accepts any $n \in \{1,2,3,4\}$ and any secret $s$, builds the oracle, runs Simon, and plots the colour-coded measurement distribution with the recovered secret in the title. When `ipywidgets` is available (Google Colab, live Jupyter), interactive sliders appear automatically. In static environments the function can be called directly with any arguments.
 
-**Why it matters:** Experimentation cements intuition. Students who adjust $n$ and $s$ and watch the interference pattern change — always exactly half the strings surviving for any non-zero $s$, regardless of what $s$ is — develop a visceral sense of the algorithm's universality.
+**Why it matters:** Experimentation cements intuition. Students who adjust $n$ and $s$ and watch the interference pattern change - always exactly half the strings surviving for any non-zero $s$, regardless of what $s$ is - develop a visceral sense of the algorithm's universality.
 
 ---
 
@@ -271,10 +271,10 @@ A closing markdown cell synthesises the key ideas, presents the classical vs. qu
 
 ## Key Takeaways
 
-- **Simon's algorithm achieves an exponential query speedup** ($O(n)$ vs. $\Omega(2^{n/2})$) by exploiting quantum interference, not classical parallelism — measuring the superposition right after Step 1 gives a useless random string.
+- **Simon's algorithm achieves an exponential query speedup** ($O(n)$ vs. $\Omega(2^{n/2})$) by exploiting quantum interference, not classical parallelism - measuring the superposition right after Step 1 gives a useless random string.
 - **The interference formula** $1 + (-1)^{s \cdot z} \in \{0, 2\}$ is the single algebraic fact that drives the entire algorithm: it destroys exactly those $z$ with $z \cdot s = 1$ and doubles the amplitude of those with $z \cdot s = 0$.
 - **Indistinguishability causes interference.** Because $x$ and $x \oplus s$ produce identical oracle outputs, the quantum computer cannot tell which one it queried; their amplitudes must therefore be superposed and can cancel.
-- **The quantum step only provides equations; a classical GF(2) solver finds $s$.** This is a general pattern in quantum algorithms — quantum hardware does the hard search, classical hardware does the interpretation.
+- **The quantum step only provides equations; a classical GF(2) solver finds $s$.** This is a general pattern in quantum algorithms - quantum hardware does the hard search, classical hardware does the interpretation.
 - **Building oracles from scratch** (NumPy lookup tables, then Qiskit CX ladders) makes the algorithm concrete and debuggable; the `verify_function` guard ensures the two-to-one promise is never accidentally violated.
 - **Noise injects wrong equations but not many.** A simple majority-vote consistency check over the measured shots is sufficient to recover $s$ reliably even at ~8% gate error rates without any quantum error correction.
 - **Simon's problem is the hidden-subgroup problem over $(\mathbb{Z}_2)^n$**, and it is the conceptual prototype for Shor's algorithm (factoring) and the broad class of quantum algorithms based on the Quantum Fourier Transform.
@@ -284,29 +284,29 @@ A closing markdown cell synthesises the key ideas, presents the classical vs. qu
 ## Further Reading & Citations
 
 1. **Simon, D. R. (1997).** "On the Power of Quantum Computation." *SIAM Journal on Computing*, 26(5), 1474–1483.
-   — The original paper introducing Simon's problem and the exponential separation. *(Conference version at FOCS 1994.)*
+   - The original paper introducing Simon's problem and the exponential separation. *(Conference version at FOCS 1994.)*
 
 2. **Nielsen, M. A., & Chuang, I. L. (2010).** *Quantum Computation and Quantum Information* (10th anniversary ed.). Cambridge University Press.
-   — Chapter 6 covers Simon's algorithm in full detail alongside Shor's and Grover's algorithms. The gold-standard textbook reference.
+   - Chapter 6 covers Simon's algorithm in full detail alongside Shor's and Grover's algorithms. The gold-standard textbook reference.
 
 3. **Bernstein, E., & Vazirani, U. (1997).** "Quantum Complexity Theory." *SIAM Journal on Computing*, 26(5), 1411–1473.
-   — Introduces the oracle model and query complexity framework that Simon's result builds on; defines the BQP complexity class.
+   - Introduces the oracle model and query complexity framework that Simon's result builds on; defines the BQP complexity class.
 
 4. **Shor, P. W. (1997).** "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer." *SIAM Journal on Computing*, 26(5), 1484–1509.
    *(arXiv: [quant-ph/9508027](https://arxiv.org/abs/quant-ph/9508027))*
-   — Shows how Simon's hidden-subgroup idea generalises to $\mathbb{Z}_N$ via the QFT to give an efficient factoring algorithm.
+   - Shows how Simon's hidden-subgroup idea generalises to $\mathbb{Z}_N$ via the QFT to give an efficient factoring algorithm.
 
 5. **Childs, A. M. (2010).** "Lecture Notes on Quantum Algorithms." University of Waterloo.
    *(Available at: [https://www.cs.umd.edu/~amchilds/qa/](https://www.cs.umd.edu/~amchilds/qa/))*
-   — Lecture 5 covers Simon's algorithm and the hidden-subgroup problem with careful complexity analysis and GF(2) linear algebra.
+   - Lecture 5 covers Simon's algorithm and the hidden-subgroup problem with careful complexity analysis and GF(2) linear algebra.
 
 6. **Qiskit Community. (2024).** "Simon's Algorithm." *Qiskit Textbook / IBM Quantum Learning.*
    *(https://learning.quantum.ibm.com/)*
-   — Official Qiskit implementation guide with circuit diagrams and explanations; continuously updated for the latest Qiskit API.
+   - Official Qiskit implementation guide with circuit diagrams and explanations; continuously updated for the latest Qiskit API.
 
 7. **Mosca, M. (2008).** "Quantum Algorithms." arXiv:0808.0369 [quant-ph].
    *(https://arxiv.org/abs/0808.0369)*
-   — A broad survey placing Simon's algorithm within the full landscape of quantum algorithm design paradigms.
+   - A broad survey placing Simon's algorithm within the full landscape of quantum algorithm design paradigms.
 
 ---
 
