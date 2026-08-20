@@ -229,6 +229,9 @@ Understanding PennyLane Introduction is not just theoretical. Here is how it con
 - **Quantum Natural Language Processing (QNLP)**: Lambeq, built on PennyLane, maps sentence structure to quantum circuits for meaning-aware NLP, explored by Cambridge Quantum and Quantinuum.
 - **Quantum Approximate Optimisation Algorithm (QAOA)**: PennyLane's gradient support enables QAOA training for combinatorial optimisation problems in logistics (vehicle routing), finance (portfolio selection), and scheduling.
 - **Quantum Reinforcement Learning**: PennyLane variational circuits are being used as policy networks in quantum reinforcement learning agents for robotics and game-playing research.
+- **Quantum Error Correction (QEC)**: PennyLane's noise models and error mitigation modules support fault-tolerance research; differentiable error mitigation (zero-noise extrapolation via PennyLane) is an active area enabling more accurate results on NISQ hardware.
+- **AI and ML**: PennyLane is the primary framework for quantum machine learning globally; it supports quantum transfer learning, quantum convolutional neural networks, quantum graph neural networks, and quantum transformer architectures under active research.
+- **Healthcare**: PennyLane VQE and quantum chemistry tools are used for protein-ligand binding energy estimation, ADMET property prediction in drug discovery, and quantum-enhanced analysis of genomic data for personalised oncology treatment planning.
 
 ---
 

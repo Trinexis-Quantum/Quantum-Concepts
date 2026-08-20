@@ -290,6 +290,9 @@ Understanding Simon's Algorithm is not just theoretical. Here is how it connects
 - **Hidden Subgroup Problems**: Simon's is a special case of the hidden subgroup problem (HSP), which also subsumes Shor's factoring algorithm, making it a gateway concept for the most impactful quantum algorithms in cryptanalysis.
 - **Quantum Algorithm Research**: Simon's exponential separation between quantum and classical query complexity remains one of the sharpest known quantum advantages, actively studied for new generalisations.
 - **Quantum Compiler Oracle Synthesis**: Designing efficient quantum oracles for Simon's and related algorithms is an active area in quantum compiler research, directly relevant to quantum software toolchain development.
+- **Quantum Error Correction (QEC)**: Simon's oracle circuits require fault-tolerant implementation for practical exponential speedup; the hidden subgroup framework generalises to cover quantum error correction group structures, making this foundational for topological code design.
+- **AI and ML**: Hidden subgroup problem variants appear in quantum generative models and quantum-enhanced clustering algorithms; the GF(2) linear algebra tools in this notebook are directly used in quantum error correction decoding and quantum ML feature space analysis.
+- **Healthcare**: Quantum cryptographic security derived from Simon's analysis directly protects patient health records, genomic databases, and clinical trial data from quantum adversaries; post-quantum secure health data infrastructure is a regulatory requirement in many jurisdictions.
 
 ---
 

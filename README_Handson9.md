@@ -227,6 +227,9 @@ Understanding Qiskit Introduction is not just theoretical. Here is how it connec
 - **Financial Portfolio Optimisation**: JPMorgan, Goldman Sachs, and Barclays have prototyped quantum optimisation algorithms using Qiskit for portfolio risk analysis and derivative pricing.
 - **Quantum Chemistry**: Qiskit Nature provides specialised tools for simulating electronic structure problems, enabling computation of molecular ground state energies relevant to catalyst and battery material design.
 - **Quantum Machine Learning Research**: Qiskit Machine Learning provides parameterised circuit implementations used in academic and industrial QML research for classification, anomaly detection, and generative modelling.
+- **Quantum Error Correction (QEC)**: Qiskit provides dedicated tools (qiskit-qec, Qiskit Experiments) for implementing surface codes, measuring error rates, and running QEC experiments on real IBM hardware.
+- **AI and ML**: Qiskit Machine Learning provides quantum support vector machines, quantum neural networks, and quantum kernel methods; Qiskit Pattern provides primitives for quantum-classical hybrid ML pipelines used in industry research.
+- **Healthcare**: IBM Quantum has active partnerships with pharmaceutical companies (Boehringer Ingelheim, JSR) and health institutions using Qiskit pipelines for molecular simulation in drug discovery, genomics acceleration, and personalised medicine research.
 
 ---
 

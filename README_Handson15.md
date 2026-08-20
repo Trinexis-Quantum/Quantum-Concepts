@@ -236,6 +236,9 @@ Understanding Grover's Search Algorithm is not just theoretical. Here is how it 
 - **Quantum Cryptanalysis**: Grover's algorithm reduces the effective key length of symmetric encryption by half, motivating migration to AES-256 and SHA-3-512 for quantum-resistant security.
 - **Drug Discovery and Molecular Docking**: Amplitude amplification variants of Grover's search are used to accelerate screening of molecular conformations in computational drug design.
 - **Quantum Machine Learning**: Grover-based amplitude estimation is a subroutine in quantum Monte Carlo methods for option pricing (JPMorgan), risk analysis, and quantum-accelerated training data sampling.
+- **Quantum Error Correction (QEC)**: Fault-tolerant Grover's requires logical qubit implementation with surface codes; threshold analysis for Grover on error-corrected hardware is active research, with estimates of millions of physical qubits needed for practical database speedup.
+- **AI and ML**: Amplitude amplification (the core of Grover's) is a subroutine in quantum ML speedups including quantum principal component analysis (qPCA), quantum support vector machines, and quantum-accelerated training data sampling for large-scale deep learning.
+- **Healthcare**: Grover-enhanced molecular conformation search accelerates in-silico drug screening, reducing candidate evaluation time for diseases like Alzheimer's, cancer, and antibiotic-resistant infections; amplitude estimation variants are used in quantum-accelerated clinical trial simulation and patient stratification.
 
 ---
 

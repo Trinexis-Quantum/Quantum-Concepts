@@ -236,6 +236,9 @@ Understanding Purity, Coherence and Entanglement is not just theoretical. Here i
 - **Superdense Coding**: Two classical bits transmitted per qubit using entanglement, a protocol with applications in ultra-secure, bandwidth-efficient quantum communication.
 - **Quantum Key Distribution**: Entanglement-based QKD (E91 protocol) is deployed in commercial quantum cryptography systems for securing financial and defence communications.
 - **Quantum Biology Research**: Entanglement and coherence are studied as potential mechanisms in photosynthesis energy transfer, avian magnetoreception, and enzyme catalysis.
+- **Quantum Error Correction (QEC)**: Entanglement entropy and concurrence directly measure code distance and logical qubit quality in topological codes; maximally entangled states are the resource for quantum error correction ancillas.
+- **AI and ML**: Entanglement is the resource enabling quantum generative adversarial networks (QGANs) and quantum Boltzmann machines to represent exponentially large probability distributions compactly for generative ML.
+- **Healthcare**: Quantum coherence in biological photosynthetic complexes and avian navigation is actively studied; understanding these measures equips researchers to model and exploit coherence in quantum biosensing for non-invasive diagnostics.
 
 ---
 

@@ -269,6 +269,9 @@ Understanding Double-Slit Experiment and Stern-Gerlach is not just theoretical. 
 - **Quantum Key Distribution (QKD)**: The measurement-collapse principle observed in Stern-Gerlach directly enables BB84 and other quantum cryptography protocols used in secure government and financial communications.
 - **MRI and NMR Spectroscopy**: Spin quantisation is the physical basis of magnetic resonance imaging, used in billions of medical scans annually and in pharmaceutical molecular analysis.
 - **Quantum Random Number Generators**: Measurement randomness from quantum superposition is used in cryptography, Monte Carlo simulations, and secure token generation.
+- **Healthcare**: Quantum-enhanced atomic sensors enable sub-millimetre brain imaging and early detection of neurodegenerative diseases; quantum gravimeters are being trialled for non-invasive tumour localisation.
+- **AI and ML**: Quantum measurement randomness from superposition provides certified quantum random number generators used to seed stochastic gradient descent and Monte Carlo training in large-scale ML systems.
+- **Quantum Error Correction (QEC)**: Understanding how measurement collapses quantum states is foundational to syndrome extraction in stabiliser codes; every QEC measurement cycle mirrors the Stern-Gerlach readout principle.
 
 ---
 

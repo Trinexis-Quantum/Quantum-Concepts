@@ -217,6 +217,9 @@ Understanding Bloch Sphere and Density Matrix is not just theoretical. Here is h
 - **Quantum Error Mitigation**: Techniques like probabilistic error cancellation and zero-noise extrapolation operate on density matrices to recover accurate results from noisy NISQ hardware.
 - **Open Quantum Systems Research**: Modelling decoherence in photonic quantum computers, trapped-ion qubits, and superconducting circuits uses density matrix evolution (Lindblad master equations).
 - **Quantum Thermodynamics**: Entropy of quantum states measured via von Neumann entropy is applied in quantum heat engines and quantum battery research with potential energy-harvesting applications.
+- **Quantum Error Correction (QEC)**: Density matrices track how errors mix pure qubit states into mixed states; the purity decay rate is the key metric used to evaluate error correction code performance on real hardware.
+- **AI and ML**: Mixed-state density matrices are the natural representation for quantum neural network layers with noise, used in noise-aware quantum machine learning training and robustness benchmarking.
+- **Healthcare**: Quantum state tomography reconstructing density matrices is applied in quantum-enhanced MRI research to characterise spin ensemble states, improving signal-to-noise ratio in low-field MRI scanners.
 
 ---
 

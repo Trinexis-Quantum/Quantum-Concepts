@@ -282,6 +282,9 @@ Understanding QM Postulates, Bra-Ket and Bloch Sphere is not just theoretical. H
 - **Quantum State Tomography**: Reconstructing unknown quantum states in real hardware experiments uses density matrix formalism built on these postulates, critical for quantum processor characterisation.
 - **Quantum Error Correction**: Stabiliser codes (used in Google's and IBM's quantum processors) are formulated entirely in the bra-ket language introduced here.
 - **Quantum Chemistry Simulation**: Representing molecular electronic states as quantum states in the Hilbert space is the foundation of variational quantum eigensolver (VQE) applications in drug discovery and materials design.
+- **Quantum Error Correction (QEC)**: Stabiliser codes (surface codes, repetition codes) are derived and expressed entirely in bra-ket language; understanding the postulates is prerequisite for fault-tolerant quantum computing research.
+- **AI and ML**: Quantum kernel methods in quantum support vector machines compute inner products of quantum state vectors — the exact operation introduced here. Quantum neural network layers are defined as parameterised state evolutions.
+- **Healthcare**: Quantum simulation of protein folding and drug-receptor binding is formulated as quantum state evolution under a Hamiltonian, directly using the fifth postulate covered in this notebook.
 
 ---
 

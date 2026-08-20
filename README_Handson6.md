@@ -304,6 +304,9 @@ Understanding Noise and Quantum Information Measures is not just theoretical. He
 - **Quantum Communication Channel Capacity**: The Holevo bound gives the fundamental limit on classical information transmitted through a quantum channel, used in quantum satellite link design.
 - **Noise-Aware Circuit Compilation**: Quantum compilers (Qiskit Transpiler, pytket) use noise models built on the channels studied here to optimise circuit routing and minimise error rates on real hardware.
 - **Quantum Error Mitigation (NISQ)**: Zero-noise extrapolation, probabilistic error cancellation, and Clifford data regression all rely on noise channel models studied in this notebook, enabling useful computation on today's noisy hardware.
+- **Quantum Error Correction (QEC)**: Kraus operators are the mathematical foundation of every quantum error correcting code; amplitude damping and depolarising channels are the dominant error models in surface code threshold calculations.
+- **AI and ML**: Noise-aware quantum ML training uses the exact channel models studied here to build robust variational quantum classifiers; the Holevo bound sets the information-theoretic limit on quantum-classical data encoding in QML pipelines.
+- **Healthcare**: Noise characterisation using T₁/T₂ measurements is directly applied in clinical MRI scanner calibration; quantum information measures are used in quantum-enhanced medical imaging to quantify signal fidelity and optimise scan protocols.
 
 ---
 

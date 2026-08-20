@@ -229,6 +229,9 @@ Understanding Quantum Oracles, Primitives and Deutsch-Jozsa is not just theoreti
 - **Quantum Property Testing**: Determining whether a function has a global property (constant vs. balanced) with a single query has direct application in software verification and quantum property testing frameworks.
 - **Quantum Machine Learning Feature Detection**: Phase kickback and oracle evaluation underpin quantum kernel estimation methods used in quantum support vector machines for pattern classification.
 - **Quantum Speedup Benchmarking**: Deutsch-Jozsa is used as a standard benchmark for demonstrating quantum advantage on new hardware platforms, including photonic and trapped-ion processors.
+- **Quantum Error Correction (QEC)**: Oracle circuits require fault-tolerant implementation to achieve practical quantum advantage; designing error-corrected oracle circuits for DJ and related algorithms is an active research area in quantum compiler and QEC toolchain development.
+- **AI and ML**: Quantum oracles are used in quantum-enhanced feature maps for quantum kernel machines; phase kickback underpins quantum amplitude estimation used to speed up Monte Carlo integration in ML training and inference.
+- **Healthcare**: Oracle-based quantum pattern matching is being explored for genomic sequence alignment and biomarker detection in large-scale clinical datasets, with potential speedup relevant to precision medicine and rare disease diagnosis.
 
 ---
 

@@ -268,6 +268,9 @@ Understanding Quantum Circuits, Entangling Gates and WHT is not just theoretical
 - **GHZ State Generation for Quantum Networks**: GHZ states built in this notebook are used as entanglement resources in quantum conference key agreement, distributed quantum computing, and quantum voting protocols.
 - **Quantum Circuit Benchmarking**: Bell and GHZ state fidelity are standard benchmark metrics used by hardware providers to characterise two-qubit gate quality and multi-qubit entanglement capability.
 - **Quantum Random Access Memory (QRAM)**: Entangling circuit patterns underpin QRAM proposals for loading classical data into quantum states, a prerequisite for quantum machine learning speedups.
+- **Quantum Error Correction (QEC)**: Circuit-level noise analysis of multi-qubit entangling gates determines the fault-tolerant threshold; CNOT error rates measured via Bell state fidelity are the primary input to surface code overhead calculations.
+- **AI and ML**: Quantum circuit ansätze (hardware-efficient and strongly-entangling layers) built from the entangling gates studied here are the backbone of variational quantum ML models used in quantum chemistry and combinatorial optimisation.
+- **Healthcare**: Quantum circuit-based signal processing is being explored for accelerated analysis of high-dimensional medical imaging data (fMRI, CT reconstruction) and for quantum-enhanced pattern recognition in pathology slide analysis.
 
 ---
 

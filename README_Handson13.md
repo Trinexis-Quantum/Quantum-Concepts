@@ -266,6 +266,9 @@ Understanding Bernstein-Vazirani Algorithm is not just theoretical. Here is how 
 - **Cryptographic Key Recovery**: BV demonstrates the principle behind quantum attacks on linear cryptographic systems, directly relevant to post-quantum cryptography standardisation efforts (NIST PQC).
 - **Quantum Communication Complexity**: BV is a key example in quantum communication complexity theory, with implications for distributed computing and network protocol design.
 - **Quantum Error Syndrome Decoding**: The syndrome measurement in quantum error-correcting codes is structurally identical to the BV oracle evaluation, making this notebook foundational for quantum fault-tolerance research.
+- **Quantum Error Correction (QEC)**: The syndrome measurement circuit in stabiliser-based QEC is structurally identical to BV oracle evaluation; understanding BV is a direct conceptual stepping stone to implementing parity check measurements in surface codes.
+- **AI and ML**: Hidden linear structure recovery in BV directly maps to quantum-enhanced feature detection in ML; quantum linear algebra subroutines (HHL algorithm) use similar inner product evaluation to BV for data fitting, recommendation systems, and anomaly detection.
+- **Healthcare**: Quantum linear algebra applications enabled by BV-style circuits include quantum-accelerated analysis of electronic health records (EHR), multi-omics data integration, and quantum-enhanced imaging reconstruction algorithms for MRI and CT.
 
 ---
 

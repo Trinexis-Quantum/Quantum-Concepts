@@ -174,6 +174,9 @@ Understanding Qiskit and PennyLane Synthesis and Comparison is not just theoreti
 - **Quantum Software Engineering**: Building production quantum software libraries requires framework-agnostic design; understanding both frameworks enables portable, maintainable quantum codebases.
 - **Academic Benchmarking**: Quantum research papers routinely compare algorithm implementations across frameworks for reproducibility; this notebook gives you the skills to perform and interpret such comparisons.
 - **Startup and Industry R&D**: Quantum software startups (Quantinuum, Zapata, QC Ware) use both frameworks depending on the application layer; bilingual fluency is a direct employability advantage.
+- **Quantum Error Correction (QEC)**: Both Qiskit and PennyLane provide complementary error mitigation tools; understanding both enables selecting the right approach (Qiskit's M3 readout mitigation vs PennyLane's differentiable ZNE) for a given hardware and task.
+- **AI and ML**: Hybrid QML pipelines combine PennyLane's gradient computation with Qiskit's hardware execution; this interoperability is used in production quantum ML research at IBM, Xanadu, and academic labs worldwide.
+- **Healthcare**: Hybrid quantum-classical pipelines built on both frameworks are used in medical imaging analysis, quantum-enhanced drug screening workflows, and clinical trial data modelling, where Qiskit handles hardware execution and PennyLane optimises the variational layers.
 
 ---
 

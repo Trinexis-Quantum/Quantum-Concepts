@@ -234,6 +234,9 @@ Understanding Quantum Gates is not just theoretical. Here is how it connects to 
 - **Quantum Cryptography Circuits**: Quantum gates are the building blocks of QKD circuits, quantum digital signatures, and blind quantum computing protocols used in cloud quantum security.
 - **Photonic Quantum Computing**: Beam splitters and phase shifters in photonic processors implement exactly the rotation gates studied here, used by PsiQuantum and Xanadu for scalable quantum hardware.
 - **Quantum Control Engineering**: Implementing gates on real qubits requires microwave pulse engineering (superconducting qubits) or laser pulse shaping (trapped ions), translating the unitary matrices here into physical control signals.
+- **Quantum Error Correction (QEC)**: Clifford gates (H, S, CNOT) generate the entire stabiliser group used in surface and colour codes; T gates are the magic state distillation target enabling universal fault-tolerant computation beyond Clifford circuits.
+- **AI and ML**: Parameterised rotation gates (Rx, Ry, Rz) are the trainable weights in quantum neural networks and variational quantum classifiers; gate expressibility directly determines the learning capacity of quantum ML models.
+- **Healthcare**: Gate-based quantum circuits are used in quantum-accelerated genomic variant analysis, quantum-enhanced protein structure prediction with VQE, and in quantum-safe medical record encryption using gate-level quantum key protocols.
 
 ---
 

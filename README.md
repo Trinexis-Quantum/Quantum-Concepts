@@ -94,7 +94,7 @@ The Stern-Gerlach experiment takes this further: passing silver atoms through an
 
 **How this helps your journey:** Every qubit in every quantum computer is a physical realisation of the spin-½ system studied here. You are not just doing history, you are meeting the hardware.
 
-**Real-World Applications:** Quantum sensing and gravimeters for underground mapping and GPS-independent navigation. Spin quantisation underpins MRI and NMR spectroscopy used in billions of medical scans. The measurement-collapse principle enables BB84 quantum key distribution in commercial quantum cryptography systems.
+**Real-World Applications:** Quantum sensing and gravimeters for underground mapping and GPS-independent navigation. Spin quantisation underpins MRI and NMR spectroscopy used in billions of medical scans. The measurement-collapse principle enables BB84 quantum key distribution in commercial quantum cryptography systems. Quantum-enhanced brain imaging leverages spin sensitivity for neurological disease detection with resolution beyond classical MRI. Quantum random number generators derived from spin measurement outcomes are used to seed ML training pipelines, ensuring true stochasticity. Syndrome extraction in quantum error-correcting codes mirrors the discrete readout principle of the Stern-Gerlach experiment, where each ancilla measurement collapses the system to a definite error syndrome.
 
 ---
 
@@ -112,7 +112,7 @@ Quantum mechanics rests on five postulates. This notebook makes them concrete an
 
 **How this helps your journey:** The Bloch sphere is the mental model that will guide every gate operation you perform from here on. Rotations on this sphere *are* quantum gates.
 
-**Real-World Applications:** Every quantum algorithm is proven correct using bra-ket and the postulates here. The no-cloning theorem guarantees quantum-secure communication. Stabiliser codes used in Google's and IBM's processors are formulated entirely in this language.
+**Real-World Applications:** Every quantum algorithm is proven correct using bra-ket and the postulates here. The no-cloning theorem guarantees quantum-secure communication. Stabiliser codes used in Google's and IBM's processors are formulated entirely in this language. Stabiliser codes for fault-tolerant quantum error correction are derived directly in bra-ket language, with stabiliser generators expressed as tensor products of Pauli operators. Quantum kernel methods in quantum support vector machines use inner products computed in bra-ket form to map classical data into high-dimensional Hilbert spaces. Protein folding simulation via Hamiltonian evolution, as pursued by pharmaceutical companies, relies on the postulate-level mapping between physical Hamiltonians and unitary time-evolution operators.
 
 ---
 
@@ -130,7 +130,7 @@ Real quantum systems are never perfectly isolated. When a qubit interacts with i
 
 **How this helps your journey:** Every real quantum computation on NISQ hardware involves mixed states. Understanding density matrices is prerequisite knowledge for quantum error mitigation and variational quantum algorithms.
 
-**Real-World Applications:** Density matrices are used in quantum state tomography to characterise real qubits on IBM and Google processors. The Bloch sphere directly describes NMR spin dynamics, informing MRI pulse sequence design. Quantum error mitigation on NISQ hardware operates on density matrix representations.
+**Real-World Applications:** Density matrices are used in quantum state tomography to characterise real qubits on IBM and Google processors. The Bloch sphere directly describes NMR spin dynamics, informing MRI pulse sequence design. Quantum error mitigation on NISQ hardware operates on density matrix representations. Purity decay over time is a direct metric for tracking quantum error-correcting code performance, with faster purity loss indicating higher error rates that inform code threshold calculations. Noise-aware quantum ML training incorporates density matrix evolution under realistic noise channels to make variational models robust on NISQ devices. Quantum-enhanced low-field MRI signal optimisation uses density matrix simulations of spin ensembles to design pulse sequences that maximise signal-to-noise ratio in portable clinical scanners.
 
 ---
 
@@ -149,7 +149,7 @@ Quantum coherence is what makes superposition possible. Entanglement is what mak
 
 **How this helps your journey:** Entanglement is the fuel of quantum advantage. Grover's algorithm, Shor's algorithm, quantum teleportation, and superdense coding all rely on it. You are learning to handle the fuel.
 
-**Real-World Applications:** Bell states enabled quantum teleportation over 1,400 km via satellite (Micius, 2017). Entanglement distribution is the core mechanism of quantum repeaters for the future quantum internet. Entanglement-based QKD (E91) is deployed in commercial quantum cryptography for financial and defence communications.
+**Real-World Applications:** Bell states enabled quantum teleportation over 1,400 km via satellite (Micius, 2017). Entanglement distribution is the core mechanism of quantum repeaters for the future quantum internet. Entanglement-based QKD (E91) is deployed in commercial quantum cryptography for financial and defence communications. Entanglement entropy is used as a measure of code distance in topological codes such as the surface code, where higher entanglement correlates with greater error protection capacity. Quantum generative adversarial networks and quantum Boltzmann machines rely on entangled quantum states as their computational resource, with entanglement entropy quantifying the expressibility of the model. Quantum biosensing protocols, including NV-centre magnetometry for single-cell imaging, use coherence and entanglement modelling to optimise sensing precision at the Heisenberg limit.
 
 ---
 
@@ -167,7 +167,7 @@ NISQ (Noisy Intermediate-Scale Quantum) computers are called *noisy* for a reaso
 
 **How this helps your journey:** Before you can run a quantum algorithm on real hardware, you need to understand noise. This notebook is the foundation for quantum error correction, error mitigation, and noisy simulation, critical skills for any quantum project.
 
-**Real-World Applications:** T₁ and T₂ times are the primary metrics published by IBM, Google, and IonQ for every qubit on their processors. Kraus operators are the foundation of surface codes used in fault-tolerant quantum computing. The Holevo bound sets the channel capacity limit for quantum satellite links.
+**Real-World Applications:** T₁ and T₂ times are the primary metrics published by IBM, Google, and IonQ for every qubit on their processors. Kraus operators are the foundation of surface codes used in fault-tolerant quantum computing. The Holevo bound sets the channel capacity limit for quantum satellite links. Kraus operators serve as the mathematical foundation for quantum error-correcting codes, directly enabling surface code threshold calculations that determine whether fault-tolerant quantum computing is achievable on a given hardware platform. The Holevo bound fundamentally limits how much classical information can be encoded per qubit, constraining the data-encoding strategies used in quantum machine learning models. T₁ and T₂ relaxation times measured in this framework are the same parameters used in clinical MRI calibration to set repetition times and echo times for optimal tissue contrast.
 
 ---
 
@@ -190,7 +190,7 @@ Classical computers use AND, OR, and NOT gates to transform bits. Quantum comput
 
 **How this helps your journey:** Every quantum circuit, from a 3-qubit toy example to a 100-qubit Grover search, is built from these gates. This is your vocabulary lesson.
 
-**Real-World Applications:** Every quantum algorithm is compiled to these gate primitives before running on real hardware. Quantum compilers (Qiskit Transpiler, pytket) decompose arbitrary unitaries into native gate sets. Beam splitters in photonic processors implement exactly the rotation gates studied here, used by PsiQuantum and Xanadu.
+**Real-World Applications:** Every quantum algorithm is compiled to these gate primitives before running on real hardware. Quantum compilers (Qiskit Transpiler, pytket) decompose arbitrary unitaries into native gate sets. Beam splitters in photonic processors implement exactly the rotation gates studied here, used by PsiQuantum and Xanadu. Clifford gates (H, S, CNOT) generate stabiliser groups that define surface codes, making them indispensable for fault-tolerant quantum error correction implementations. T gates enable magic state distillation, the resource-intensive process that promotes Clifford circuits to universal fault-tolerant computation. Parameterised rotation gates (Rx, Ry, Rz) are directly used as trainable weights in quantum neural networks and variational quantum circuits for machine learning. Quantum-safe genomic encryption proposals rely on the gate-level hardness of inverting certain quantum circuits, connecting low-level gate design to post-quantum security for protecting patient genetic data.
 
 ---
 
@@ -208,7 +208,7 @@ Individual gates are words. Quantum circuits are sentences. This notebook moves 
 
 **How this helps your journey:** Every algorithm in Act 3 is expressed as a circuit. This notebook is where you develop the circuit-building intuition you will rely on constantly.
 
-**Real-World Applications:** The Walsh-Hadamard Transform is a special case of the Quantum Fourier Transform at the heart of Shor's algorithm. GHZ states built here are used in quantum conference key agreement and distributed quantum computing. Bell state fidelity is a standard benchmark metric used by every quantum hardware provider.
+**Real-World Applications:** The Walsh-Hadamard Transform is a special case of the Quantum Fourier Transform at the heart of Shor's algorithm. GHZ states built here are used in quantum conference key agreement and distributed quantum computing. Bell state fidelity is a standard benchmark metric used by every quantum hardware provider. CNOT error rates measured in two-qubit entangling circuits directly drive the overhead calculations for surface code implementations, determining how many physical qubits are needed per logical qubit. Entangling circuit ansätze built with CNOT and parameterised gates form the backbone of quantum ML models such as quantum neural networks and quantum kernel estimators. Quantum signal processing techniques applied to entangling circuits are being investigated for fMRI and CT image reconstruction, offering potential improvements in resolution and scan time.
 
 ---
 
@@ -227,7 +227,7 @@ Qiskit is the world's most widely used quantum programming framework, with over 
 
 **How this helps your journey:** Qiskit is the entry point to IBM Quantum's real hardware, the most accessible quantum computers in the world. This notebook puts that access in your hands.
 
-**Real-World Applications:** Direct access to IBM's fleet of real quantum processors (up to 433 qubits) via the cloud. Pharmaceutical companies use Qiskit pipelines for molecular simulation in drug discovery. JPMorgan and Goldman Sachs have prototyped Qiskit-based algorithms for portfolio optimisation and derivative pricing.
+**Real-World Applications:** Direct access to IBM's fleet of real quantum processors (up to 433 qubits) via the cloud. Pharmaceutical companies use Qiskit pipelines for molecular simulation in drug discovery. JPMorgan and Goldman Sachs have prototyped Qiskit-based algorithms for portfolio optimisation and derivative pricing. Qiskit's quantum error correction tools, including the stabiliser code framework and syndrome measurement circuits, are used to run surface code experiments on real IBM quantum hardware. Qiskit Machine Learning provides quantum SVM and quantum neural network implementations that integrate directly with the Qiskit runtime for hybrid classical-quantum ML workflows. IBM Quantum's healthcare partnerships are actively applying these Qiskit pipelines to drug discovery challenges and genomics data analysis, accelerating the translation from quantum research to clinical impact.
 
 ---
 
@@ -246,7 +246,7 @@ PennyLane by Xanadu takes a different approach to quantum programming: it treats
 
 **How this helps your journey:** Most quantum hackathon problems today involve QML or VQAs. PennyLane is the dominant tool for both. This notebook is your competitive edge.
 
-**Real-World Applications:** PennyLane is the dominant framework for quantum machine learning research at Google, IBM, and Xanadu. VQE on PennyLane is used for battery electrolyte and catalyst design in materials science. QAOA trained on PennyLane is applied to vehicle routing, portfolio selection, and scheduling optimisation.
+**Real-World Applications:** PennyLane is the dominant framework for quantum machine learning research at Google, IBM, and Xanadu. VQE on PennyLane is used for battery electrolyte and catalyst design in materials science. QAOA trained on PennyLane is applied to vehicle routing, portfolio selection, and scheduling optimisation. PennyLane's differentiable zero-noise extrapolation (ZNE) enables NISQ error mitigation by scaling noise in a differentiable pipeline, making it practical for near-term quantum hardware. Quantum convolutional neural networks and quantum graph neural networks are implemented in PennyLane's QML module for structured data learning tasks in chemistry and materials science. VQE implemented in PennyLane is being applied to protein-ligand binding energy estimation and personalised oncology drug response prediction, connecting variational quantum algorithms directly to clinical research.
 
 ---
 
@@ -264,7 +264,7 @@ Qiskit and PennyLane are complementary, not competing. This notebook runs the sa
 
 **How this helps your journey:** Real quantum projects rarely use just one framework. This notebook makes you bilingual in the two most important quantum languages.
 
-**Real-World Applications:** Real industrial quantum pipelines combine Qiskit for hardware execution with PennyLane for gradient optimisation. AWS Braket, Azure Quantum, and IBM Quantum all support both frameworks. Bilingual fluency in both is a direct employability advantage in quantum software companies worldwide.
+**Real-World Applications:** Real industrial quantum pipelines combine Qiskit for hardware execution with PennyLane for gradient optimisation. AWS Braket, Azure Quantum, and IBM Quantum all support both frameworks. Bilingual fluency in both is a direct employability advantage in quantum software companies worldwide. Direct comparison of Qiskit's M3 readout error mitigation against PennyLane's ZNE reveals complementary strengths for quantum error correction mitigation on near-term hardware. Hybrid quantum-classical ML pipelines combining both frameworks are actively deployed in industry research at IBM Research, Xanadu, and pharmaceutical companies. Clinical trial data modelling and biomarker discovery are emerging application areas for hybrid quantum-classical workflows that leverage the strengths of both frameworks within a single pipeline.
 
 ---
 
@@ -287,7 +287,7 @@ Quantum oracles are black boxes that encode a function into a quantum circuit vi
 
 **How this helps your journey:** Oracles appear in Grover's algorithm, Simon's algorithm, and amplitude estimation. Understanding them at this level is the key to building more complex quantum solutions.
 
-**Real-World Applications:** The oracle model is used in quantum cryptanalysis to evaluate hash function security against quantum adversaries. Phase kickback underlies quantum kernel estimation used in quantum support vector machines for classification. Deutsch-Jozsa is used as a standard benchmark on new hardware platforms including photonic and trapped-ion processors.
+**Real-World Applications:** The oracle model is used in quantum cryptanalysis to evaluate hash function security against quantum adversaries. Phase kickback underlies quantum kernel estimation used in quantum support vector machines for classification. Deutsch-Jozsa is used as a standard benchmark on new hardware platforms including photonic and trapped-ion processors. Fault-tolerant oracle circuit designs developed from the Deutsch-Jozsa framework are critical stepping stones toward practical quantum advantage on error-corrected hardware. Quantum amplitude estimation, which extends oracle-based query techniques, is used to accelerate Monte Carlo integration in ML model training and financial risk calculations. Genomic sequence alignment is being investigated using oracle-based quantum search, where the oracle encodes sequence similarity, enabling quadratic speedups over classical alignment algorithms.
 
 ---
 
@@ -306,7 +306,7 @@ The Bernstein-Vazirani algorithm finds a hidden binary string `s` encoded in an 
 
 **How this helps your journey:** BV is a stepping stone to understanding Simon's algorithm and Shor's algorithm. It also appears in cryptographic settings, making it directly relevant to quantum-safe security research.
 
-**Real-World Applications:** BV demonstrates quantum attacks on linear cryptographic systems, motivating NIST post-quantum cryptography standards. Syndrome measurement in quantum error-correcting codes is structurally identical to BV oracle evaluation. The GF(2) inner product structure is a building block for quantum linear algebra applications in finance and simulation.
+**Real-World Applications:** BV demonstrates quantum attacks on linear cryptographic systems, motivating NIST post-quantum cryptography standards. Syndrome measurement in quantum error-correcting codes is structurally identical to BV oracle evaluation. The GF(2) inner product structure is a building block for quantum linear algebra applications in finance and simulation. The BV syndrome measurement structure maps directly onto surface code parity checks, where each stabiliser measurement is effectively a BV-style inner product query used to detect and locate errors. Quantum linear algebra algorithms built on the GF(2) structure are being applied to electronic health record analysis and multi-omics data integration, enabling pattern discovery across high-dimensional patient datasets. Quantum-accelerated MRI reconstruction using linear inversion algorithms benefits from the same inner-product computation structure demonstrated in the BV algorithm.
 
 ---
 
@@ -326,7 +326,7 @@ Simon's algorithm solves a hidden symmetry problem exponentially faster than any
 
 **How this helps your journey:** Understanding Simon's algorithm is the intellectual prerequisite for Shor's algorithm, the quantum threat to RSA encryption. If you want to work in quantum cryptography or post-quantum security, this notebook is essential.
 
-**Real-World Applications:** Simon's exponential speedup motivates doubling of symmetric key lengths (AES-256 instead of AES-128) in post-quantum security standards. It is a special case of the hidden subgroup problem that also subsumes Shor's factoring algorithm. Directly informs the design of quantum-resistant primitives evaluated in the NIST PQC standardisation process.
+**Real-World Applications:** Simon's exponential speedup motivates doubling of symmetric key lengths (AES-256 instead of AES-128) in post-quantum security standards. It is a special case of the hidden subgroup problem that also subsumes Shor's factoring algorithm. Directly informs the design of quantum-resistant primitives evaluated in the NIST PQC standardisation process. Fault-tolerant Simon oracle circuits reveal hidden subgroup structures that map onto quantum error-correcting code symmetries, providing insight into the algebraic foundations of QEC code design. Quantum generative model and quantum clustering applications exploit the hidden structure discovery capability first demonstrated by Simon's algorithm to find latent patterns in high-dimensional data. Post-quantum security for patient genomic databases relies on understanding exactly which problems Simon-class algorithms can solve, guiding the selection of quantum-resistant encryption schemes for protecting sensitive genomic information.
 
 ---
 
@@ -346,7 +346,7 @@ Grover's algorithm is the most practically relevant quantum algorithm for near-t
 
 **How this helps your journey:** Grover's algorithm is a building block for dozens of quantum applications, from quantum optimisation and cryptanalysis to combinatorial search in AI. It is the most asked-about algorithm in quantum hackathons.
 
-**Real-World Applications:** Grover's quadratic speedup applies to genomic sequence matching, fraud detection in financial transaction logs, and record retrieval. Grover Adaptive Search is applied to NP-hard combinatorial problems in supply chain and scheduling. Grover reduces symmetric encryption effective key length by half, driving migration to AES-256 for quantum-resistant security. JPMorgan uses amplitude estimation variants for quantum Monte Carlo option pricing.
+**Real-World Applications:** Grover's quadratic speedup applies to genomic sequence matching, fraud detection in financial transaction logs, and record retrieval. Grover Adaptive Search is applied to NP-hard combinatorial problems in supply chain and scheduling. Grover reduces symmetric encryption effective key length by half, driving migration to AES-256 for quantum-resistant security. JPMorgan uses amplitude estimation variants for quantum Monte Carlo option pricing. Fault-tolerant Grover search at clinically relevant database scales will require millions of physical qubits, making it a primary driver for large-scale fault-tolerant quantum hardware development roadmaps. Amplitude amplification, the core technique of Grover's algorithm, is a subroutine in quantum principal component analysis (qPCA) and quantum SVM, boosting the performance of quantum ML algorithms. Grover-enhanced drug screening is being investigated for accelerating the identification of candidate compounds for Alzheimer's disease, cancer, and antibiotic resistance by searching vast molecular databases quadratically faster than classical methods.
 
 ---
 
