@@ -442,6 +442,12 @@ from qiskit_ibm_runtime import QiskitRuntimeService
 QiskitRuntimeService.save_account(channel="ibm_quantum", token="YOUR_TOKEN")
 ```
 
+> **IBM Quantum Open Plan — Free Compute Expansion**
+>
+> IBM has expanded the Open Plan to give active users an additional **180 minutes of free quantum compute**, usable anytime within 12 months. To qualify, simply reach **20 minutes of usage** on the existing free allocation (10 minutes per month). This makes hands-on access to real quantum hardware even more accessible for students, researchers, and developers.
+>
+> Details: [ibm.com/quantum/blog/open-plan-updates](https://www.ibm.com/quantum/blog/open-plan-updates)
+
 ---
 
 ## 📋 Full Notebook Index
