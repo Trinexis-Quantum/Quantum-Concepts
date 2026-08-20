@@ -552,16 +552,9 @@ quantum measurement, bra-ket notation, quantum computing from scratch
 
 ---
 
-## 🤝 Contributing
+## 🌐 Trinexis
 
-Contributions are welcome! If you find a bug, want to add an exercise, or would like to contribute a new notebook:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/add-shor-algorithm`)
-3. Commit your changes
-4. Open a Pull Request
-
-Please follow the existing notebook style: physics motivation → mathematics → code → visualisation.
+This series is brought to you by **[Trinexis](https://trinexis.org/)** - visit us at **https://trinexis.org/** for more quantum computing resources, programmes, and updates.
 
 ---
 
