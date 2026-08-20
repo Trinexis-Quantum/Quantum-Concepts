@@ -281,7 +281,7 @@ quantum software framework, quantum parameter optimization, shots simulation, qu
 
 ---
 
-## Related Notebooks in This series Series
+## Related Notebooks in This Series
 
 | # | Notebook | Topic |
 |---|----------|-------|
@@ -303,5 +303,5 @@ quantum software framework, quantum parameter optimization, shots simulation, qu
 ---
 
 *Quantum Computing Education Series by Trinexis 2026.*
-*Notebook runs on Google Colab, use Runtime → Run all for a complete end-to-end execution.*
+*Quantum Computing Education Series by Trinexis 2026*
 *PennyLane documentation: [https://docs.pennylane.ai/](https://docs.pennylane.ai/) | PennyLane demos: [https://pennylane.ai/qml/](https://pennylane.ai/qml/)*

@@ -312,4 +312,4 @@ This notebook is **Hands-On 9** of the Quantum Computing Education Series by Tri
 
 ---
 
-*Quantum Computing Education Series by Trinexis 2026 Runs fully on Google Colab, Runtime → Run all.*
+*Quantum Computing Education Series by Trinexis 2026*

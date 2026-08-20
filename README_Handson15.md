@@ -277,7 +277,7 @@ quantum amplitude
 qiskit 2.5
 quantum circuits python
 Trinexis quantum computing
-quantum computing education series by Trinexisme quantum
+quantum computing education series by Trinexis 2026, quantum
 grover rotation geometry
 quantum oracle construction
 multi-controlled gate qiskit
@@ -295,7 +295,7 @@ quantum amplitude estimation
 
 ---
 
-## Related Notebooks in This series Series
+## Related Notebooks in This Series
 
 | # | Notebook | Topic |
 |---|---|---|
