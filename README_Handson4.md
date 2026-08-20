@@ -208,6 +208,18 @@ A concise reference table collects every key formula from the notebook. Ten exer
 
 ---
 
+## Real-World Applications
+
+Understanding Bloch Sphere and Density Matrix is not just theoretical. Here is how it connects to active real-world problems and solutions:
+
+- **Quantum State Tomography**: Experimentalists reconstruct density matrices from repeated measurements to characterise real qubits on IBM, Google, and IonQ processors, enabling hardware benchmarking.
+- **NMR and MRI Physics**: The Bloch sphere is literally used in NMR to describe spin dynamics under RF pulses, directly informing MRI pulse sequence design in medical imaging.
+- **Quantum Error Mitigation**: Techniques like probabilistic error cancellation and zero-noise extrapolation operate on density matrices to recover accurate results from noisy NISQ hardware.
+- **Open Quantum Systems Research**: Modelling decoherence in photonic quantum computers, trapped-ion qubits, and superconducting circuits uses density matrix evolution (Lindblad master equations).
+- **Quantum Thermodynamics**: Entropy of quantum states measured via von Neumann entropy is applied in quantum heat engines and quantum battery research with potential energy-harvesting applications.
+
+---
+
 ## Further Reading & Citations
 
 1. **Nielsen, M. A., & Chuang, I. L.** (2010). *Quantum Computation and Quantum Information* (10th anniversary ed.). Cambridge University Press.

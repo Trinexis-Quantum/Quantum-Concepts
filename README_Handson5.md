@@ -227,6 +227,18 @@ Six exercises with collapsible solutions scale from warm-up (E1: compute purity 
 
 ---
 
+## Real-World Applications
+
+Understanding Purity, Coherence and Entanglement is not just theoretical. Here is how it connects to active real-world problems and solutions:
+
+- **Quantum Teleportation**: Bell states are the resource used in quantum teleportation protocols demonstrated over 1,400 km via satellite (Micius satellite, China 2017), enabling future quantum internet nodes.
+- **Quantum Networks and Repeaters**: Entanglement distribution between distant nodes is the core mechanism of quantum repeaters, which will form the backbone of a global quantum internet.
+- **Superdense Coding**: Two classical bits transmitted per qubit using entanglement, a protocol with applications in ultra-secure, bandwidth-efficient quantum communication.
+- **Quantum Key Distribution**: Entanglement-based QKD (E91 protocol) is deployed in commercial quantum cryptography systems for securing financial and defence communications.
+- **Quantum Biology Research**: Entanglement and coherence are studied as potential mechanisms in photosynthesis energy transfer, avian magnetoreception, and enzyme catalysis.
+
+---
+
 ## Further Reading & Citations
 
 1. **Nielsen, M. A. & Chuang, I. L.** (2010). *Quantum Computation and Quantum Information* (10th anniversary ed.). Cambridge University Press., The definitive textbook reference. Chapters 2 (density matrices, partial trace), 4 (quantum circuits), and 9 (distance measures, entropy) cover all topics in this notebook at greater depth.

@@ -281,6 +281,18 @@ A closing markdown cell synthesises the key ideas, presents the classical vs. qu
 
 ---
 
+## Real-World Applications
+
+Understanding Simon's Algorithm is not just theoretical. Here is how it connects to active real-world problems and solutions:
+
+- **Symmetric Cryptography Analysis**: Simon's algorithm demonstrates an exponential quantum speedup against symmetric-key constructions, motivating the doubling of key lengths (e.g., AES-256 instead of AES-128) in post-quantum security standards.
+- **Post-Quantum Cryptography (NIST PQC)**: Understanding Simon's attack on hidden shift problems directly informs the design of quantum-resistant symmetric primitives evaluated in the NIST PQC standardisation process.
+- **Hidden Subgroup Problems**: Simon's is a special case of the hidden subgroup problem (HSP), which also subsumes Shor's factoring algorithm, making it a gateway concept for the most impactful quantum algorithms in cryptanalysis.
+- **Quantum Algorithm Research**: Simon's exponential separation between quantum and classical query complexity remains one of the sharpest known quantum advantages, actively studied for new generalisations.
+- **Quantum Compiler Oracle Synthesis**: Designing efficient quantum oracles for Simon's and related algorithms is an active area in quantum compiler research, directly relevant to quantum software toolchain development.
+
+---
+
 ## Further Reading & Citations
 
 1. **Simon, D. R. (1997).** "On the Power of Quantum Computation." *SIAM Journal on Computing*, 26(5), 1474–1483.

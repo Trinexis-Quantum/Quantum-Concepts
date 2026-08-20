@@ -260,6 +260,18 @@ A summary table maps each experiment to the quantum-computing concept it introdu
 
 ---
 
+## Real-World Applications
+
+Understanding Double-Slit Experiment and Stern-Gerlach is not just theoretical. Here is how it connects to active real-world problems and solutions:
+
+- **Quantum Sensing and Metrology**: The interference principles from the double-slit experiment underpin quantum gravimeters and atom interferometers used in oil exploration, underground mapping, and GPS-independent navigation.
+- **Electron Microscopy**: Quantum wave behaviour of electrons enables sub-nanometre imaging in materials science, semiconductor fabrication, and drug discovery.
+- **Quantum Key Distribution (QKD)**: The measurement-collapse principle observed in Stern-Gerlach directly enables BB84 and other quantum cryptography protocols used in secure government and financial communications.
+- **MRI and NMR Spectroscopy**: Spin quantisation is the physical basis of magnetic resonance imaging, used in billions of medical scans annually and in pharmaceutical molecular analysis.
+- **Quantum Random Number Generators**: Measurement randomness from quantum superposition is used in cryptography, Monte Carlo simulations, and secure token generation.
+
+---
+
 ## Further Reading & Citations
 
 1. **Feynman, R. P., Leighton, R. B., & Sands, M. (1965).** *The Feynman Lectures on Physics, Volume III: Quantum Mechanics.* Addison-Wesley., Chapter 1 ("Quantum Behavior") is the direct inspiration for Part I of this notebook; Chapters 5–6 cover spin-½ and the Stern–Gerlach experiment. Freely available at [https://www.feynmanlectures.caltech.edu/](https://www.feynmanlectures.caltech.edu/).

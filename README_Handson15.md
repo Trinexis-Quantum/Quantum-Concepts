@@ -227,6 +227,18 @@ The closing section distils the algorithm to one paragraph and lists four "thing
 
 ---
 
+## Real-World Applications
+
+Understanding Grover's Search Algorithm is not just theoretical. Here is how it connects to active real-world problems and solutions:
+
+- **Database and Unstructured Search**: Grover's quadratic speedup applies directly to searching unsorted databases, with applications in genomic sequence matching, fraud detection in financial transaction logs, and record retrieval.
+- **Combinatorial Optimisation**: Grover-enhanced optimisation (Grover Adaptive Search) is applied to NP-hard problems including the Travelling Salesman Problem, job scheduling, and supply chain optimisation.
+- **Quantum Cryptanalysis**: Grover's algorithm reduces the effective key length of symmetric encryption by half, motivating migration to AES-256 and SHA-3-512 for quantum-resistant security.
+- **Drug Discovery and Molecular Docking**: Amplitude amplification variants of Grover's search are used to accelerate screening of molecular conformations in computational drug design.
+- **Quantum Machine Learning**: Grover-based amplitude estimation is a subroutine in quantum Monte Carlo methods for option pricing (JPMorgan), risk analysis, and quantum-accelerated training data sampling.
+
+---
+
 ## Further Reading & Citations
 
 1. **Grover, L. K. (1996).** A fast quantum mechanical algorithm for database search. *Proceedings of the 28th Annual ACM Symposium on Theory of Computing (STOC)*, 212–219. [https://doi.org/10.1145/237814.237866](https://doi.org/10.1145/237814.237866), The original paper. Surprisingly readable; Grover motivates the algorithm entirely from the interference perspective.

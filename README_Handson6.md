@@ -295,6 +295,18 @@ Fully worked solution cells are provided and commented.
 
 ---
 
+## Real-World Applications
+
+Understanding Noise and Quantum Information Measures is not just theoretical. Here is how it connects to active real-world problems and solutions:
+
+- **Quantum Processor Benchmarking**: T₁ and T₂ times are the primary hardware metrics published by IBM, Google, and IonQ for every qubit on their quantum processors, directly informing which hardware to choose for a given task.
+- **Quantum Error Correction**: The Kraus operator formalism is the mathematical foundation of surface codes, repetition codes, and all fault-tolerant quantum computing architectures.
+- **Quantum Communication Channel Capacity**: The Holevo bound gives the fundamental limit on classical information transmitted through a quantum channel, used in quantum satellite link design.
+- **Noise-Aware Circuit Compilation**: Quantum compilers (Qiskit Transpiler, pytket) use noise models built on the channels studied here to optimise circuit routing and minimise error rates on real hardware.
+- **Quantum Error Mitigation (NISQ)**: Zero-noise extrapolation, probabilistic error cancellation, and Clifford data regression all rely on noise channel models studied in this notebook, enabling useful computation on today's noisy hardware.
+
+---
+
 ## Further Reading & Citations
 
 1. **Nielsen, M. A., & Chuang, I. L. (2000).** *Quantum Computation and Quantum Information.* Cambridge University Press., The canonical graduate text. Chapters 8–9 cover quantum noise and CPTP maps; Chapter 11 covers quantum information theory (entropy, fidelity, Holevo bound). ISBN 978-0-521-63503-5.

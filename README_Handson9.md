@@ -218,6 +218,18 @@ Three exercises of escalating difficulty:
 
 ---
 
+## Real-World Applications
+
+Understanding Qiskit Introduction is not just theoretical. Here is how it connects to active real-world problems and solutions:
+
+- **IBM Quantum Cloud Access**: Qiskit is the direct interface to IBM's fleet of real quantum processors (up to 433 qubits), enabling researchers and engineers to run experiments on real quantum hardware accessible via the cloud.
+- **Quantum Drug Discovery**: Pharmaceutical companies including Boehringer Ingelheim and JSR use Qiskit-based pipelines to simulate molecular interactions for drug candidate screening.
+- **Financial Portfolio Optimisation**: JPMorgan, Goldman Sachs, and Barclays have prototyped quantum optimisation algorithms using Qiskit for portfolio risk analysis and derivative pricing.
+- **Quantum Chemistry**: Qiskit Nature provides specialised tools for simulating electronic structure problems, enabling computation of molecular ground state energies relevant to catalyst and battery material design.
+- **Quantum Machine Learning Research**: Qiskit Machine Learning provides parameterised circuit implementations used in academic and industrial QML research for classification, anomaly detection, and generative modelling.
+
+---
+
 ## Further Reading and Citations
 
 1. **Nielsen, M. A., & Chuang, I. L. (2010).** *Quantum Computation and Quantum Information* (10th Anniversary Edition). Cambridge University Press., The standard graduate reference. Chapter 1 introduces quantum circuits; Chapter 4 covers quantum algorithms including Deutsch's; Chapter 5 covers the quantum Fourier transform and its applications. ISBN: 978-1-107-00217-3.

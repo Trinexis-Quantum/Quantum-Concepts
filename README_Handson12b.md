@@ -220,6 +220,18 @@ A final section consolidates every concept built in the notebook, restates the f
 
 ---
 
+## Real-World Applications
+
+Understanding Quantum Oracles, Primitives and Deutsch-Jozsa is not just theoretical. Here is how it connects to active real-world problems and solutions:
+
+- **Database Query Optimisation**: Oracle-based quantum search (building on Deutsch-Jozsa's oracle model) is applied to structured database queries, with quantum speedup relevant to large-scale data warehousing.
+- **Cryptographic Protocol Analysis**: The oracle model is used in quantum cryptanalysis to evaluate the security of hash functions and pseudorandom generators against quantum adversaries.
+- **Quantum Property Testing**: Determining whether a function has a global property (constant vs. balanced) with a single query has direct application in software verification and quantum property testing frameworks.
+- **Quantum Machine Learning Feature Detection**: Phase kickback and oracle evaluation underpin quantum kernel estimation methods used in quantum support vector machines for pattern classification.
+- **Quantum Speedup Benchmarking**: Deutsch-Jozsa is used as a standard benchmark for demonstrating quantum advantage on new hardware platforms, including photonic and trapped-ion processors.
+
+---
+
 ## Further Reading & Citations
 
 1. **Deutsch, D. (1985).** "Quantum Theory, the Church–Turing Principle and the Universal Quantum Computer." *Proceedings of the Royal Society A*, 400(1818), 97–117. https://doi.org/10.1098/rspa.1985.0070, *The original paper introducing the 1-bit Deutsch algorithm and the quantum Turing machine model.*

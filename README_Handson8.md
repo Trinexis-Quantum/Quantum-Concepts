@@ -259,6 +259,18 @@ Three carefully scaffolded exercises of increasing difficulty:
 
 ---
 
+## Real-World Applications
+
+Understanding Quantum Circuits, Entangling Gates and WHT is not just theoretical. Here is how it connects to active real-world problems and solutions:
+
+- **Quantum Fourier Transform**: The Walsh-Hadamard Transform is a simplified version of the Quantum Fourier Transform (QFT), which is the core subroutine of Shor's factoring algorithm and quantum phase estimation used in quantum chemistry.
+- **Quantum Signal Processing**: Multi-qubit entangling circuits implementing WHT are used in quantum signal processing algorithms for spectral analysis with exponential speedup over classical FFT.
+- **GHZ State Generation for Quantum Networks**: GHZ states built in this notebook are used as entanglement resources in quantum conference key agreement, distributed quantum computing, and quantum voting protocols.
+- **Quantum Circuit Benchmarking**: Bell and GHZ state fidelity are standard benchmark metrics used by hardware providers to characterise two-qubit gate quality and multi-qubit entanglement capability.
+- **Quantum Random Access Memory (QRAM)**: Entangling circuit patterns underpin QRAM proposals for loading classical data into quantum states, a prerequisite for quantum machine learning speedups.
+
+---
+
 ## Further Reading & Citations
 
 1. **Nielsen, M. A., & Chuang, I. L. (2000).** *Quantum Computation and Quantum Information.* Cambridge University Press., The canonical graduate textbook; Chapter 4 covers quantum circuits exhaustively, and Chapter 2 covers the tensor-product formalism and partial traces. [https://www.cambridge.org/9781107002173](https://www.cambridge.org/9781107002173)
