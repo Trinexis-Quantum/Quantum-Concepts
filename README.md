@@ -535,7 +535,7 @@ python  quantum-gates  grover-algorithm  simons-algorithm  bernstein-vazirani
 deutsch-jozsa  quantum-circuits  bloch-sphere  density-matrix  entanglement
 quantum-noise  quantum-information  quantum-machine-learning  variational-quantum
 amplitude-amplification  quantum-oracles  quantum-hackathon  nisq  quantum-education
-fdp  quantum-course  quantum-research  stern-gerlach  double-slit  phase-kickback
+trinexis  quantum-course  quantum-research  stern-gerlach  double-slit  phase-kickback
 ```
 
 <!-- SEO KEYWORDS

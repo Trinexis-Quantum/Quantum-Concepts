@@ -5,7 +5,7 @@
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7%2B-11557c)](https://matplotlib.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](https://opensource.org/licenses/MIT)
-[![Trinexis](https://img.shields.io/badge/FDP-IIT%20Roorkee%202026-8b1a1a)](.)
+[![Series](https://img.shields.io/badge/Series-Quantum_Computing_Education-6929C4?style=flat-square)](https://github.com/Trinexis-Quantum/Quantum-Concepts)
 [![No Qiskit Required](https://img.shields.io/badge/No%20Qiskit%20Required-Pure%20NumPy-blueviolet)](.)
 
 **Hands-On 8 | Education Series — Quantum Computing**

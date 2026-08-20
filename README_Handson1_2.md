@@ -5,7 +5,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-2.x-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557c)](https://matplotlib.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Course](https://img.shields.io/badge/Course-Quantum%20Computing%20FDP%202026-blueviolet)](.)
+[![Series](https://img.shields.io/badge/Series-Quantum_Computing_Education-6929C4?style=flat-square)](https://github.com/Trinexis-Quantum/Quantum-Concepts)
 
 ---
 
@@ -280,7 +280,7 @@ A summary table maps each experiment to the quantum-computing concept it introdu
 
 <!-- 
 SEO TAGS / KEYWORDS
-quantum computing tutorial, double slit experiment, Stern-Gerlach experiment, qubit, quantum superposition, probability amplitude, Born rule, wave-particle duality, quantum interference, which-path information, decoherence, Bloch sphere, Hadamard gate, Pauli matrices, single qubit gates, quantum measurement, wavefunction collapse, Feynman lectures, Deutsch algorithm, quantum advantage, quantum computing education, faculty development program, Quantum Computing Education Series by Trinexis, hands-on quantum, quantum simulation Python, NumPy quantum, quantum amplitude, complex amplitude, interference fringe, incompatible observables, spin half, spin measurement, quantum probability, quantum algorithms introductory, quantum computing beginner
+quantum computing tutorial, double slit experiment, Stern-Gerlach experiment, qubit, quantum superposition, probability amplitude, Born rule, wave-particle duality, quantum interference, which-path information, decoherence, Bloch sphere, Hadamard gate, Pauli matrices, single qubit gates, quantum measurement, wavefunction collapse, Feynman lectures, Deutsch algorithm, quantum advantage, quantum computing education, quantum computing education series by Trinexis, Quantum Computing Education Series by Trinexis, hands-on quantum, quantum simulation Python, NumPy quantum, quantum amplitude, complex amplitude, interference fringe, incompatible observables, spin half, spin measurement, quantum probability, quantum algorithms introductory, quantum computing beginner
 -->
 
 ---
@@ -306,5 +306,5 @@ quantum computing tutorial, double slit experiment, Stern-Gerlach experiment, qu
 
 ---
 
-*Faculty Development Program — Quantum Computing, 2026*
+*Quantum Computing Education Series by Trinexis — Quantum Computing, 2026*
 *Notebook authored for the series series. Simulations built with NumPy 2.0 and Matplotlib; no quantum framework required for this notebook.*

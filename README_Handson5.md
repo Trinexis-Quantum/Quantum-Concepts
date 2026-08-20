@@ -6,7 +6,7 @@
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7%2B-11557c)](https://matplotlib.org/)
 [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.0%2B-informational)](https://ipywidgets.readthedocs.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![2026](https://img.shields.io/badge/FDP-Quantum%20Computing%202026-purple)](.)
+[![Series](https://img.shields.io/badge/Series-Quantum_Computing_Education-6929C4?style=flat-square)](https://github.com/Trinexis-Quantum/Quantum-Concepts)
 
 > **Education Series · Quantum Computing · 2026**
 > File: `Demo5_Purity_Coherence_Entanglement.ipynb`

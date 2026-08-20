@@ -5,7 +5,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-2.0%2B-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557c?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](../../LICENSE)
-[![FDP](https://img.shields.io/badge/Course-FDP%20Quantum%20Computing%202026-purple)](../)
+[![Series](https://img.shields.io/badge/Series-Quantum_Computing_Education-6929C4?style=flat-square)](https://github.com/Trinexis-Quantum/Quantum-Concepts)
 
 ---
 

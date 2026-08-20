@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![FDP](https://img.shields.io/badge/Course-IIT%20Roorkee%20FDP%202026-orange)](https://www.iitr.ac.in)
+[![Series](https://img.shields.io/badge/Series-Quantum_Computing_Education-6929C4?style=flat-square)](https://github.com/Trinexis-Quantum/Quantum-Concepts)
 
 > **Education Series in Quantum Computing · Trinexis · 2026**
 > *Hands-On Session 15 of 15*
@@ -262,7 +262,7 @@ quantum amplitude
 qiskit 2.5
 quantum circuits python
 Trinexis quantum computing
-faculty development programme quantum
+quantum computing education series by Trinexisme quantum
 grover rotation geometry
 quantum oracle construction
 multi-controlled gate qiskit

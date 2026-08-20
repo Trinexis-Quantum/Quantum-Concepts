@@ -5,7 +5,7 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![Open In Colab](https://img.shields.io/badge/Open%20In-Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Course](https://img.shields.io/badge/Course-Quantum%20Computing%20FDP%202026-green)](.)
+[![Series](https://img.shields.io/badge/Series-Quantum_Computing_Education-6929C4?style=flat-square)](https://github.com/Trinexis-Quantum/Quantum-Concepts)
 
 ---
 
@@ -276,7 +276,7 @@ jupyter quantum notebook
 
 ## Related Notebooks in This Series
 
-This notebook is **Hands-On 9** of the Quantum Computing Education Series by Trinexis (Faculty Development Program), 2026. The full series builds from physical intuition to production frameworks:
+This notebook is **Hands-On 9** of the Quantum Computing Education Series by Trinexis (Quantum Computing Education Series by Trinexis), 2026. The full series builds from physical intuition to production frameworks:
 
 | # | Notebook | Key Topics |
 |---|----------|------------|

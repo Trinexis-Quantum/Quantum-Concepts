@@ -284,7 +284,7 @@ The sandbox cell is the most important part of the notebook for building intuiti
 
 <!--
 SEO TAGS — DO NOT REMOVE
-Bernstein-Vazirani algorithm, quantum algorithm, quantum oracle, phase kickback, Hadamard gate, quantum interference, quantum query complexity, quantum speedup, Qiskit tutorial, quantum computing education, quantum superposition, destructive interference, constructive interference, qubit, quantum gate, quantum circuit, Trinexis, faculty development programme, Qiskit Aer, depolarising noise, quantum error, majority voting, hidden string problem, dot product oracle, quantum parallelism misconception, quantum information, quantum computing Python, computational basis, Walsh-Hadamard transform, oracle model, quantum advantage, classical vs quantum
+Bernstein-Vazirani algorithm, quantum algorithm, quantum oracle, phase kickback, Hadamard gate, quantum interference, quantum query complexity, quantum speedup, Qiskit tutorial, quantum computing education, quantum superposition, destructive interference, constructive interference, qubit, quantum gate, quantum circuit, Trinexis, quantum computing education series by Trinexisme, Qiskit Aer, depolarising noise, quantum error, majority voting, hidden string problem, dot product oracle, quantum parallelism misconception, quantum information, quantum computing Python, computational basis, Walsh-Hadamard transform, oracle model, quantum advantage, classical vs quantum
 -->
 
 ---
