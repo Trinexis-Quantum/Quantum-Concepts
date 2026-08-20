@@ -315,7 +315,7 @@ quantum Fourier transform Walsh functions
 quantum circuit diagram Python
 quantum gate universality
 qubit entanglement detection
-Quantum Computing Education Series by Trinexis Trinexis
+Quantum Computing Education Series by Trinexis 2026
 quantum superposition interference
 reduced density matrix
 quantum algorithm Deutsch-Jozsa
@@ -349,4 +349,4 @@ The course follows a carefully sequenced progression. Each notebook builds direc
 
 ---
 
-*Notebook authored for the Education Series in Quantum Computing, Trinexis, 2026. Runs entirely in Python with NumPy and Matplotlib, no quantum hardware or cloud access required.*
+*Quantum Computing Education Series by Trinexis 2026*

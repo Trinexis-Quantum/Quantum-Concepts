@@ -7,7 +7,9 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 
-> **Capstone of the Software-Ecosystem Session**, Quantum Computing Education Series by Trinexis
+> **Capstone of the Software-Ecosystem Session**
+
+Quantum Computing Education Series by Trinexis 2026
 
 ---
 
@@ -214,7 +216,7 @@ QNode pennylane
 QuantumCircuit qiskit
 automatic differentiation quantum
 quantum optimisation python
-Quantum Computing Education Series by Trinexis
+Quantum Computing Education Series by Trinexis 2026
 qiskit estimator primitives
 pennylane qml.grad
 quantum computing jupyter notebook
@@ -252,4 +254,4 @@ quantum computing beginner
 
 ---
 
-*Prepared for the Quantum Computing Education Series by Trinexis. Runs on Google Colab, Runtime → Run all.*
+*Quantum Computing Education Series by Trinexis 2026*

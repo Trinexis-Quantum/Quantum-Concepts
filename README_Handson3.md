@@ -342,5 +342,5 @@ quantum superposition misconception, global phase qubit, quantum incompatibility
 
 ---
 
-*Part of the Quantum Computing Education Series by Trinexis, 2026.*  
-*Notebook authored for classroom use. Feedback and corrections are welcome via the course repository.*
+*Quantum Computing Education Series by Trinexis 2026*  
+

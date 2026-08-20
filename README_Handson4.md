@@ -286,5 +286,5 @@ amplitude damping, quantum channel, numpy quantum simulation
 
 ---
 
-*Prepared for the Quantum Computing Education Series by Trinexis, 2026.*
+*Quantum Computing Education Series by Trinexis 2026*
 *All code requires only NumPy, Matplotlib, and ipywidgets, no quantum hardware access needed.*

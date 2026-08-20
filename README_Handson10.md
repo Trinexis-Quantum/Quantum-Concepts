@@ -8,7 +8,7 @@
 ![Series](https://img.shields.io/badge/Series-Quantum_Computing-0ea5e9?style=flat-square)
 
 **Notebook file:** `Demo10_PennyLane_Introduction_Hands_On.ipynb`
-**Series:** Quantum Computing Education Series by Trinexis
+**Series:** Quantum Computing Education Series by Trinexis 2026
 **Companion to:** [Demo11, PennyLane & Qiskit Synthesis and Comparison](Demo11_Qiskit_PennyLane_Synthesis_and_Comparison.ipynb)
 
 ---
@@ -271,7 +271,7 @@ pennylane getting started, differentiable quantum computing, parameter shift rul
 quantum automatic differentiation, hybrid quantum classical, variational quantum algorithm,
 VQA tutorial, quantum machine learning, QML tutorial, quantum gradient descent,
 pennylane vs qiskit, quantum circuit training, bell state pennylane, quantum entanglement demo,
-pennylane expval probs state, Quantum Computing Education Series by Trinexis, pennylane GradientDescentOptimizer,
+pennylane expval probs state, Quantum Computing Education Series by Trinexis 2026, pennylane GradientDescentOptimizer,
 qml.grad tutorial, quantum circuit drawing, pennylane draw, pennylane device backend,
 default.qubit lightning.qubit, hardware agnostic quantum, pennylane numpy, trainable quantum circuit,
 quantum optimizer python, born rule probabilities, superposition measurement, hadamard gate demo,
@@ -302,6 +302,6 @@ quantum software framework, quantum parameter optimization, shots simulation, qu
 
 ---
 
-*Quantum Computing Education Series by Trinexis.*
+*Quantum Computing Education Series by Trinexis 2026.*
 *Notebook runs on Google Colab, use Runtime → Run all for a complete end-to-end execution.*
 *PennyLane documentation: [https://docs.pennylane.ai/](https://docs.pennylane.ai/) | PennyLane demos: [https://pennylane.ai/qml/](https://pennylane.ai/qml/)*

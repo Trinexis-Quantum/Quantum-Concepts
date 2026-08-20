@@ -260,7 +260,7 @@ Understanding Quantum Gates is not just theoretical. Here is how it connects to 
 
 ## Related Notebooks
 
-The complete Hands-On series for the Quantum Computing Education Series by Trinexis:
+The complete Hands-On series for the Quantum Computing Education Series by Trinexis 2026:
 
 | # | Title | Link |
 |---|---|---|
@@ -288,7 +288,7 @@ Hadamard gate superposition, CNOT gate entanglement, Bell state preparation, qua
 reversible quantum computing, no-cloning theorem, Toffoli gate reversible AND, quantum circuit gates,
 single qubit gates, two qubit gates, rotation gates Rx Ry Rz, Hamiltonian evolution gate,
 matrix exponential quantum, quantum gate universality, S gate T gate phase gate, numpy quantum simulation,
-quantum gates python, Quantum Computing Education Series by Trinexis, Stern-Gerlach gate analogy, gate non-commutativity,
+quantum gates python, Quantum Computing Education Series by Trinexis 2026, Stern-Gerlach gate analogy, gate non-commutativity,
 quantum vs classical logic, tensor product quantum, Kronecker product gates, Bell inequality preparation,
 quantum superposition gates, eigendecomposition matrix exponential, quantum computing undergraduate tutorial
 -->

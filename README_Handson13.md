@@ -325,5 +325,5 @@ Bernstein-Vazirani algorithm, quantum algorithm, quantum oracle, phase kickback,
 
 ---
 
-*Prepared for the Trinexis Quantum Computing Education Series by Trinexis, 2026.*
-*Notebook authored with Qiskit 2.5.0 and Qiskit-Aer 0.17.2. All outputs were generated on a standard laptop CPU using the Aer statevector and shot-based simulators.*
+*Quantum Computing Education Series by Trinexis 2026*
+*Quantum Computing Education Series by Trinexis 2026*

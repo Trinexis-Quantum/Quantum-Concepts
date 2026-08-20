@@ -1,6 +1,6 @@
 # Notebook 6, Noise, Errors & Quantum Information Measures
 
-> **Quantum Computing Education Series by Trinexis · Trinexis**
+> **Quantum Computing Education Series by Trinexis 2026**
 > *Hands-On Series*
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)

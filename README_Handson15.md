@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Series](https://img.shields.io/badge/Series-Quantum_Computing_Education-6929C4?style=flat-square)](https://github.com/Trinexis-Quantum/Quantum-Concepts)
 
-> **Education Series in Quantum Computing · Trinexis · 2026**
+> **Quantum Computing Education Series by Trinexis 2026**
 > *Hands-On Session 15 of 15*
 
 ---
@@ -316,4 +316,4 @@ quantum amplitude estimation
 
 ---
 
-*Prepared for the Trinexis Education Series in Quantum Computing, 2026. Notebook authored with Qiskit 2.5.0 / Aer 0.17.2. All simulations run on the Aer statevector and shot-based simulators.*
+*Quantum Computing Education Series by Trinexis 2026*

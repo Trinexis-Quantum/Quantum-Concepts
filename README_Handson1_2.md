@@ -295,7 +295,7 @@ Understanding Double-Slit Experiment and Stern-Gerlach is not just theoretical. 
 
 <!-- 
 SEO TAGS / KEYWORDS
-quantum computing tutorial, double slit experiment, Stern-Gerlach experiment, qubit, quantum superposition, probability amplitude, Born rule, wave-particle duality, quantum interference, which-path information, decoherence, Bloch sphere, Hadamard gate, Pauli matrices, single qubit gates, quantum measurement, wavefunction collapse, Feynman lectures, Deutsch algorithm, quantum advantage, quantum computing education, quantum computing education series by Trinexis, Quantum Computing Education Series by Trinexis, hands-on quantum, quantum simulation Python, NumPy quantum, quantum amplitude, complex amplitude, interference fringe, incompatible observables, spin half, spin measurement, quantum probability, quantum algorithms introductory, quantum computing beginner
+quantum computing tutorial, double slit experiment, Stern-Gerlach experiment, qubit, quantum superposition, probability amplitude, Born rule, wave-particle duality, quantum interference, which-path information, decoherence, Bloch sphere, Hadamard gate, Pauli matrices, single qubit gates, quantum measurement, wavefunction collapse, Feynman lectures, Deutsch algorithm, quantum advantage, quantum computing education, quantum computing education series by Trinexis 2026, hands-on quantum, quantum simulation Python, NumPy quantum, quantum amplitude, complex amplitude, interference fringe, incompatible observables, spin half, spin measurement, quantum probability, quantum algorithms introductory, quantum computing beginner
 -->
 
 ---
@@ -321,5 +321,5 @@ quantum computing tutorial, double slit experiment, Stern-Gerlach experiment, qu
 
 ---
 
-*Quantum Computing Education Series by Trinexis, Quantum Computing, 2026*
-*Notebook authored for the series series. Simulations built with NumPy 2.0 and Matplotlib; no quantum framework required for this notebook.*
+*Quantum Computing Education Series by Trinexis 2026*
+**

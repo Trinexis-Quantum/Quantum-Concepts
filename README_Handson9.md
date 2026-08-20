@@ -11,7 +11,7 @@
 
 ## Overview
 
-Every craft has its tools. A carpenter who has spent weeks learning how wood responds to hand planes, chisels, and saws, understanding the grain, the tension, the physics of cutting, is then in a position to appreciate a well-designed power tool not as magic, but as systematised craft. This notebook occupies exactly that position in the Quantum Computing Education Series by Trinexis course. You have already built quantum circuits, state vectors, density matrices, noise channels, and even your own from-scratch statevector simulator using nothing but NumPy. Now you pick up **Qiskit**, IBM's open-source Python framework for quantum computing, and immediately recognise its internals, because you built the same things yourself.
+Every craft has its tools. A carpenter who has spent weeks learning how wood responds to hand planes, chisels, and saws, understanding the grain, the tension, the physics of cutting, is then in a position to appreciate a well-designed power tool not as magic, but as systematised craft. This notebook occupies exactly that position in the Quantum Computing Education Series by Trinexis 2026 course. You have already built quantum circuits, state vectors, density matrices, noise channels, and even your own from-scratch statevector simulator using nothing but NumPy. Now you pick up **Qiskit**, IBM's open-source Python framework for quantum computing, and immediately recognise its internals, because you built the same things yourself.
 
 Qiskit grew up as the primary interface to **real IBM Quantum hardware**: actual superconducting-qubit processors accessible over the cloud. Its design reflects that lineage at every level. A `QuantumCircuit` is an explicit ordered list of gates, not an implicit computation graph. Its two central **primitives**, `Sampler` (shot-based bitstring counts) and `Estimator` (expectation values of observables), mirror exactly what a physical experiment can return. Its **transpiler** is a full compiler that rewrites an abstract circuit into one expressible using a specific device's native gate vocabulary. Understanding these design choices, not just the syntax, is what separates a practitioner from someone who copy-pastes code.
 
@@ -272,7 +272,7 @@ VQE tutorial
 quantum gradient descent
 quantum transpilation
 qiskit-ibm-runtime
-Quantum Computing Education Series by Trinexis
+Quantum Computing Education Series by Trinexis 2026
 hands-on quantum computing
 quantum machine learning
 qiskit 2.5
@@ -291,7 +291,7 @@ jupyter quantum notebook
 
 ## Related Notebooks in This Series
 
-This notebook is **Hands-On 9** of the Quantum Computing Education Series by Trinexis (Quantum Computing Education Series by Trinexis), 2026. The full series builds from physical intuition to production frameworks:
+This notebook is **Hands-On 9** of the Quantum Computing Education Series by Trinexis 2026, 2026. The full series builds from physical intuition to production frameworks:
 
 | # | Notebook | Key Topics |
 |---|----------|------------|
@@ -312,4 +312,4 @@ This notebook is **Hands-On 9** of the Quantum Computing Education Series by Tri
 
 ---
 
-*Prepared for the Quantum Computing Education Series by Trinexis, 2026. Runs fully on Google Colab, Runtime → Run all.*
+*Quantum Computing Education Series by Trinexis 2026 Runs fully on Google Colab, Runtime → Run all.*

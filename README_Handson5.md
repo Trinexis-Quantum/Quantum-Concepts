@@ -291,4 +291,4 @@ quantum computing tutorial, density matrix python, purity quantum state, von neu
 
 ---
 
-*Prepared for the Education Series in Quantum Computing, 2026. Notebook designed to run on Google Colab or any local Jupyter environment with Python 3.9+, NumPy, Matplotlib, and ipywidgets.*
+*Quantum Computing Education Series by Trinexis 2026*

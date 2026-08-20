@@ -299,4 +299,4 @@ Bernstein-Vazirani precursor algorithm
 
 ---
 
-*Prepared for the Quantum Computing Education Series by Trinexis, Trinexis, 2026.*
+*Prepared for the Quantum Computing Education Series by Trinexis 2026, Trinexis, 2026.*

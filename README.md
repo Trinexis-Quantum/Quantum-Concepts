@@ -15,7 +15,7 @@ quantum computing, qiskit, pennylane, quantum algorithms, quantum gates, grover 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/Trinexis-Quantum/Quantum-Concepts?style=for-the-badge&color=yellow)](https://github.com/Trinexis-Quantum/Quantum-Concepts/stargazers)
 
-**Quantum Computing Education Series by Trinexis**
+**Quantum Computing Education Series by Trinexis 2026**
 
 [📚 Start Learning](#-learning-path--roadmap) · [🗺️ Roadmap](#-learning-path--roadmap) · [🏆 Hackathons](#-quantum-hackathons-challenges--projects) · [📖 Notebooks](#-notebook-series--what-youll-learn) · [⚙️ Setup](#-getting-started)
 
@@ -574,7 +574,7 @@ density matrix python, quantum entanglement code, quantum noise models, kraus op
 quantum information theory, variational quantum eigensolver, quantum machine learning,
 quantum hackathon preparation, IBM quantum computing, quantum computing for students,
 quantum computing research, NISQ algorithms, quantum computing roadmap, hands-on quantum,
-Quantum Computing Education Series by Trinexis, quantum computing course 2026, quantum superposition code,
+Quantum Computing Education Series by Trinexis 2026, quantum computing course 2026, quantum superposition code,
 quantum measurement, bra-ket notation, quantum computing from scratch
 -->
 
@@ -594,7 +594,7 @@ This project is licensed under the **MIT License**, see [LICENSE](LICENSE) for d
 
 ## 🙏 Acknowledgements
 
-This notebook series was developed for the **Quantum Computing Education Series by Trinexis** held in **2026**, by **Trinexis Quantum**. We thank all participants and the open-source quantum computing community, especially the Qiskit and PennyLane teams.
+This notebook series was developed for the **Quantum Computing Education Series by Trinexis 2026** held in **2026**, by **Trinexis Quantum**. We thank all participants and the open-source quantum computing community, especially the Qiskit and PennyLane teams.
 
 ---
 
