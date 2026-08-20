@@ -7,7 +7,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![License](https://img.shields.io/badge/License-MIT-22c55e)](LICENSE)
 
-**Faculty Development Programme · Quantum Computing · IIT Roorkee**
+**Education Series · Quantum Computing · Trinexis**
 *Hands-On Demo 13 of 15 — Algorithms Module*
 
 ---
@@ -284,7 +284,7 @@ The sandbox cell is the most important part of the notebook for building intuiti
 
 <!--
 SEO TAGS — DO NOT REMOVE
-Bernstein-Vazirani algorithm, quantum algorithm, quantum oracle, phase kickback, Hadamard gate, quantum interference, quantum query complexity, quantum speedup, Qiskit tutorial, quantum computing education, quantum superposition, destructive interference, constructive interference, qubit, quantum gate, quantum circuit, IIT Roorkee, faculty development programme, Qiskit Aer, depolarising noise, quantum error, majority voting, hidden string problem, dot product oracle, quantum parallelism misconception, quantum information, quantum computing Python, computational basis, Walsh-Hadamard transform, oracle model, quantum advantage, classical vs quantum
+Bernstein-Vazirani algorithm, quantum algorithm, quantum oracle, phase kickback, Hadamard gate, quantum interference, quantum query complexity, quantum speedup, Qiskit tutorial, quantum computing education, quantum superposition, destructive interference, constructive interference, qubit, quantum gate, quantum circuit, Trinexis, faculty development programme, Qiskit Aer, depolarising noise, quantum error, majority voting, hidden string problem, dot product oracle, quantum parallelism misconception, quantum information, quantum computing Python, computational basis, Walsh-Hadamard transform, oracle model, quantum advantage, classical vs quantum
 -->
 
 ---
@@ -293,7 +293,7 @@ Bernstein-Vazirani algorithm, quantum algorithm, quantum oracle, phase kickback,
 
 | # | Notebook | Topic |
 |---|----------|-------|
-| 1–2 | [Demo1-2\_Double\_Slit\_and\_Stern\_Gerlach\_FDP.ipynb](Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb) | Double-slit interference and Stern–Gerlach; the physical basis of amplitude interference |
+| 1–2 | [Demo1-2\_Double\_Slit\_and\_Stern\_Gerlach\.ipynb](Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb) | Double-slit interference and Stern–Gerlach; the physical basis of amplitude interference |
 | 3 | [Demo3\_QMPostulates\_BraKet\_Bloch.ipynb](Demo3_QMPostulates_BraKet_Bloch.ipynb) | Quantum mechanics postulates, bra-ket notation, Bloch sphere |
 | 4 | [Demo4\_BlochSphere\_DensityMatrix.ipynb](Demo4_BlochSphere_DensityMatrix.ipynb) | Density matrices and the geometry of mixed states |
 | 5 | [Demo5\_Purity\_Coherence\_Entanglement.ipynb](Demo5_Purity_Coherence_Entanglement.ipynb) | Entanglement measures, purity, and coherence |
@@ -306,9 +306,9 @@ Bernstein-Vazirani algorithm, quantum algorithm, quantum oracle, phase kickback,
 | **12** | [**Demo12b\_Qiskit\_Oracles\_Primitives\_DJ.ipynb**](Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb) | **Quantum oracles and Deutsch–Jozsa — direct predecessor to this notebook** |
 | **13** | **Demo13b\_Bernstein\_Vazirani\_Qiskit.ipynb** | **This notebook** |
 | 14 | [Demo14\_Simons\_Algorithm\_Qiskit.ipynb](Demo14_Simons_Algorithm_Qiskit.ipynb) | Simon's algorithm: hidden-period finding, the conceptual bridge to Shor |
-| 15 | [Demo15\_Grover\_Qiskit\_FDP.ipynb](Demo15_Grover_Qiskit_FDP.ipynb) | Grover's search algorithm: amplitude amplification and the quadratic speedup |
+| 15 | [Demo15\_Grover\_Qiskit\.ipynb](Demo15_Grover_Qiskit.ipynb) | Grover's search algorithm: amplitude amplification and the quadratic speedup |
 
 ---
 
-*Prepared for the IIT Roorkee Faculty Development Programme on Quantum Computing, June–July 2026.*
+*Prepared for the Trinexis Quantum Computing Education Series by Trinexis, 2026.*
 *Notebook authored with Qiskit 2.5.0 and Qiskit-Aer 0.17.2. All outputs were generated on a standard laptop CPU using the Aer statevector and shot-based simulators.*

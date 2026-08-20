@@ -1,6 +1,6 @@
 # Notebook 6 — Noise, Errors & Quantum Information Measures
 
-> **Faculty Development Programme on Quantum Computing · IIT Roorkee**
+> **Quantum Computing Education Series by Trinexis · Trinexis**
 > *Hands-On Series*
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
@@ -317,7 +317,7 @@ Fully worked solution cells are provided and commented.
 
 ## Related Notebooks
 
-The full hands-on series for the FDP on Quantum Computing (IIT Roorkee) covers:
+The full hands-on series for the series on Quantum Computing (Trinexis) covers:
 
 | Notebook | Title | Link |
 |---|---|---|
@@ -339,5 +339,5 @@ The full hands-on series for the FDP on Quantum Computing (IIT Roorkee) covers:
 ---
 
 <!-- SEO KEYWORDS
-quantum noise, quantum error, CPTP map, Kraus operators, quantum channel, decoherence, dephasing channel, bit-flip channel, phase-flip channel, depolarizing channel, amplitude damping, T1 relaxation, T2 dephasing, Bloch sphere, density matrix, von Neumann entropy, quantum entropy, quantum information, fidelity, trace distance, quantum coherence, l1 coherence, relative entropy, mutual information, conditional entropy, entanglement entropy, Holevo bound, quantum information measures, quantum error correction, quantum computing education, IIT Roorkee, faculty development programme, quantum channel capacity, quantum decoherence, purity, mixed state, quantum noise model, Stern-Gerlach, interference visibility, quantum tutorial, Jupyter notebook, NumPy quantum simulation, quantum optics
+quantum noise, quantum error, CPTP map, Kraus operators, quantum channel, decoherence, dephasing channel, bit-flip channel, phase-flip channel, depolarizing channel, amplitude damping, T1 relaxation, T2 dephasing, Bloch sphere, density matrix, von Neumann entropy, quantum entropy, quantum information, fidelity, trace distance, quantum coherence, l1 coherence, relative entropy, mutual information, conditional entropy, entanglement entropy, Holevo bound, quantum information measures, quantum error correction, quantum computing education, Trinexis, faculty development programme, quantum channel capacity, quantum decoherence, purity, mixed state, quantum noise model, Stern-Gerlach, interference visibility, quantum tutorial, Jupyter notebook, NumPy quantum simulation, quantum optics
 -->

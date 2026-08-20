@@ -298,7 +298,7 @@ quantum computing tutorial, Born rule, wave function collapse, superposition, en
 Hermitian operator, unitary operator, Pauli matrices, quantum measurement, Stern-Gerlach,
 quantum state vector, inner product Hilbert space, quantum gates rotation, Hadamard gate,
 Pauli basis decomposition, expectation value quantum, quantum probability amplitude,
-NumPy quantum mechanics, Python quantum computing, FDP quantum computing, jupyter quantum,
+NumPy quantum mechanics, Python quantum computing, quantum computing, jupyter quantum,
 single qubit operations, quantum collapse postulate, completeness relation, projector operator,
 Schrodinger equation unitary, matrix exponential quantum, qubit state normalization,
 quantum superposition misconception, global phase qubit, quantum incompatibility commutator
@@ -310,7 +310,7 @@ quantum superposition misconception, global phase qubit, quantum incompatibility
 
 | # | Notebook | Topic |
 |---|----------|-------|
-| 1-2 | [Demo1-2: Double Slit and Stern-Gerlach](../Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb) | Wave-particle duality, interference, SG cascades — the experimental motivation for this notebook |
+| 1-2 | [Demo1-2: Double Slit and Stern-Gerlach](../Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb) | Wave-particle duality, interference, SG cascades — the experimental motivation for this notebook |
 | **3** | **Demo3: QM Postulates, Bra-Ket, Bloch Sphere** *(this notebook)* | **The five postulates, Dirac notation, Pauli matrices, Bloch sphere** |
 | 4 | [Demo4: Bloch Sphere and Density Matrix](../Demo4_BlochSphere_DensityMatrix.ipynb) | Mixed states, density operators, purity, decoherence |
 | 5 | [Demo5: Purity, Coherence, Entanglement](../Demo5_Purity_Coherence_Entanglement.ipynb) | Two-qubit tensor products, Bell states, entanglement measures |
@@ -323,9 +323,9 @@ quantum superposition misconception, global phase qubit, quantum incompatibility
 | 12 | [Demo12b: Oracles and Deutsch-Jozsa](../Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb) | Quantum oracles, Deutsch-Jozsa algorithm |
 | 13 | [Demo13b: Bernstein-Vazirani](../Demo13b_Bernstein_Vazirani_Qiskit.ipynb) | Interference-based query algorithms |
 | 14 | [Demo14: Simon's Algorithm](../Demo14_Simons_Algorithm_Qiskit.ipynb) | Hidden subgroup problem, exponential speed-up |
-| 15 | [Demo15: Grover's Algorithm](../Demo15_Grover_Qiskit_FDP.ipynb) | Amplitude amplification, quadratic speed-up |
+| 15 | [Demo15: Grover's Algorithm](../Demo15_Grover_Qiskit.ipynb) | Amplitude amplification, quadratic speed-up |
 
 ---
 
-*Part of the Faculty Development Programme on Quantum Computing, June-July 2026.*  
+*Part of the Quantum Computing Education Series by Trinexis, 2026.*  
 *Notebook authored for classroom use. Feedback and corrections are welcome via the course repository.*

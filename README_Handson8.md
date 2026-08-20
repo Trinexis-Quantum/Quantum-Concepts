@@ -5,11 +5,11 @@
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7%2B-11557c)](https://matplotlib.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](https://opensource.org/licenses/MIT)
-[![FDP IIT Roorkee](https://img.shields.io/badge/FDP-IIT%20Roorkee%202026-8b1a1a)](.)
+[![Trinexis](https://img.shields.io/badge/FDP-IIT%20Roorkee%202026-8b1a1a)](.)
 [![No Qiskit Required](https://img.shields.io/badge/No%20Qiskit%20Required-Pure%20NumPy-blueviolet)](.)
 
-**Hands-On 8 | Faculty Development Programme — Quantum Computing**
-*IIT Roorkee, Department of Electronics & Communication Engineering, June–July 2026*
+**Hands-On 8 | Education Series — Quantum Computing**
+*Trinexis, Department of Electronics & Communication Engineering, 2026*
 
 ---
 
@@ -275,7 +275,7 @@ Three carefully scaffolded exercises of increasing difficulty:
 
 7. **Walsh, J. L. (1923).** A closed set of normal orthogonal functions. *American Journal of Mathematics*, 45(1), 5–24. [https://doi.org/10.2307/2387224](https://doi.org/10.2307/2387224) — The original 1923 paper introducing the Walsh functions that underpin the WHT's sign-pattern structure and the connection to classical spread-spectrum signal processing.
 
-8. **Mermin, N. D. (2007).** *Quantum Computer Science: An Introduction.* Cambridge University Press. — A particularly accessible graduate introduction covering circuits and Bell inequalities with careful attention to exactly the conceptual points emphasised in this FDP course. [https://www.cambridge.org/9780521876582](https://www.cambridge.org/9780521876582)
+8. **Mermin, N. D. (2007).** *Quantum Computer Science: An Introduction.* Cambridge University Press. — A particularly accessible graduate introduction covering circuits and Bell inequalities with careful attention to exactly the conceptual points emphasised in this series course. [https://www.cambridge.org/9780521876582](https://www.cambridge.org/9780521876582)
 
 ---
 
@@ -300,7 +300,7 @@ quantum Fourier transform Walsh functions
 quantum circuit diagram Python
 quantum gate universality
 qubit entanglement detection
-quantum computing FDP IIT Roorkee
+Quantum Computing Education Series by Trinexis Trinexis
 quantum superposition interference
 reduced density matrix
 quantum algorithm Deutsch-Jozsa
@@ -317,7 +317,7 @@ The course follows a carefully sequenced progression. Each notebook builds direc
 
 | # | Notebook | Topic |
 |---|---|---|
-| 1–2 | `Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb` | Double-slit experiment, Stern–Gerlach cascades, wave-particle duality |
+| 1–2 | `Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb` | Double-slit experiment, Stern–Gerlach cascades, wave-particle duality |
 | 3 | `Demo3_QMPostulates_BraKet_Bloch.ipynb` | QM postulates, bra-ket algebra, Bloch sphere geometry |
 | 4 | `Demo4_BlochSphere_DensityMatrix.ipynb` | Density matrices, mixed states, Bloch-sphere geometry revisited |
 | 5 | `Demo5_Purity_Coherence_Entanglement.ipynb` | Purity, decoherence, entanglement witnesses (tools reused here) |
@@ -330,8 +330,8 @@ The course follows a carefully sequenced progression. Each notebook builds direc
 | 12 | `Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb` | Oracles, quantum parallelism, Deutsch–Jozsa on Qiskit |
 | 13 | `Demo13b_Bernstein_Vazirani_Qiskit.ipynb` | Bernstein–Vazirani algorithm |
 | 14 | `Demo14_Simons_Algorithm_Qiskit.ipynb` | Simon's algorithm and period finding |
-| 15 | `Demo15_Grover_Qiskit_FDP.ipynb` | Grover's search algorithm |
+| 15 | `Demo15_Grover_Qiskit.ipynb` | Grover's search algorithm |
 
 ---
 
-*Notebook authored for the Faculty Development Programme in Quantum Computing, IIT Roorkee, June–July 2026. Runs entirely in Python with NumPy and Matplotlib — no quantum hardware or cloud access required.*
+*Notebook authored for the Education Series in Quantum Computing, Trinexis, 2026. Runs entirely in Python with NumPy and Matplotlib — no quantum hardware or cloud access required.*

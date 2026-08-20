@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 
-> **FDP on Quantum Computing · IIT Roorkee · June–July 2026**
+> **on Quantum Computing · Trinexis · 2026**
 >
 > *Unifying thesis: indistinguishable alternatives interfere; probabilities are squared magnitudes of amplitudes.*
 
@@ -256,7 +256,7 @@ Qiskit QuantumCircuit oracle
 multi-controlled gate mcx mcp
 phase oracle diagonal unitary
 quantum Fourier transform precursor
-IIT Roorkee quantum FDP 2026
+Trinexis quantum 2026
 quantum computing education Jupyter
 Bernstein-Vazirani precursor algorithm
 -->
@@ -267,7 +267,7 @@ Bernstein-Vazirani precursor algorithm
 
 | # | Notebook | Topic |
 |---|----------|-------|
-| 1–2 | [`Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb`](Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb) | Physical motivation: double-slit and Stern–Gerlach experiments |
+| 1–2 | [`Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb`](Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb) | Physical motivation: double-slit and Stern–Gerlach experiments |
 | 3 | [`Demo3_QMPostulates_BraKet_Bloch.ipynb`](Demo3_QMPostulates_BraKet_Bloch.ipynb) | QM postulates, bra-ket notation, Bloch sphere |
 | 4 | [`Demo4_BlochSphere_DensityMatrix.ipynb`](Demo4_BlochSphere_DensityMatrix.ipynb) | Density matrices and mixed states |
 | 5 | [`Demo5_Purity_Coherence_Entanglement.ipynb`](Demo5_Purity_Coherence_Entanglement.ipynb) | Purity, coherence, and entanglement measures |
@@ -280,8 +280,8 @@ Bernstein-Vazirani precursor algorithm
 | **12b** | **`Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb`** ← *you are here* | **Oracles, primitives, and Deutsch–Jozsa (Qiskit)** |
 | 13b | [`Demo13b_Bernstein_Vazirani_Qiskit.ipynb`](Demo13b_Bernstein_Vazirani_Qiskit.ipynb) | Bernstein–Vazirani algorithm |
 | 14 | [`Demo14_Simons_Algorithm_Qiskit.ipynb`](Demo14_Simons_Algorithm_Qiskit.ipynb) | Simon's algorithm (exponential separation) |
-| 15 | [`Demo15_Grover_Qiskit_FDP.ipynb`](Demo15_Grover_Qiskit_FDP.ipynb) | Grover's search algorithm |
+| 15 | [`Demo15_Grover_Qiskit.ipynb`](Demo15_Grover_Qiskit.ipynb) | Grover's search algorithm |
 
 ---
 
-*Prepared for the Faculty Development Programme on Quantum Computing, IIT Roorkee, June–July 2026.*
+*Prepared for the Quantum Computing Education Series by Trinexis, Trinexis, 2026.*

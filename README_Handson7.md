@@ -245,7 +245,7 @@ A final markdown cell summarizes every concept demonstrated in code, connects th
 
 ## Related Notebooks
 
-The complete Hands-On series for the Faculty Development Programme on Quantum Computing:
+The complete Hands-On series for the Quantum Computing Education Series by Trinexis:
 
 | # | Title | Link |
 |---|---|---|
@@ -273,7 +273,7 @@ Hadamard gate superposition, CNOT gate entanglement, Bell state preparation, qua
 reversible quantum computing, no-cloning theorem, Toffoli gate reversible AND, quantum circuit gates,
 single qubit gates, two qubit gates, rotation gates Rx Ry Rz, Hamiltonian evolution gate,
 matrix exponential quantum, quantum gate universality, S gate T gate phase gate, numpy quantum simulation,
-quantum gates python, quantum computing FDP, Stern-Gerlach gate analogy, gate non-commutativity,
+quantum gates python, Quantum Computing Education Series by Trinexis, Stern-Gerlach gate analogy, gate non-commutativity,
 quantum vs classical logic, tensor product quantum, Kronecker product gates, Bell inequality preparation,
 quantum superposition gates, eigendecomposition matrix exponential, quantum computing undergraduate tutorial
 -->

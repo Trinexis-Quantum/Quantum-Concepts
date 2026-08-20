@@ -5,10 +5,10 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)
-![FDP](https://img.shields.io/badge/FDP-Quantum_Computing_2026-0ea5e9?style=flat-square)
+![Series](https://img.shields.io/badge/Series-Quantum_Computing-0ea5e9?style=flat-square)
 
 **Notebook file:** `Demo10_PennyLane_Introduction_Hands_On.ipynb`
-**Course:** Quantum Computing Faculty Development Programme (FDP), June–July 2026
+**Series:** Quantum Computing Education Series by Trinexis
 **Companion to:** [Demo11 — PennyLane & Qiskit Synthesis and Comparison](Demo11_Qiskit_PennyLane_Synthesis_and_Comparison.ipynb)
 
 ---
@@ -17,7 +17,7 @@
 
 Imagine you have spent several weeks building a car engine by hand — winding the coils yourself, machining the pistons, calibrating the fuel injectors from scratch. You now understand *exactly* how each part works. But to actually drive somewhere, you step into a fully assembled car and turn the key. That is the shift this notebook makes.
 
-In the earlier hands-on sessions of this FDP, you assembled quantum computing from the ground up using raw NumPy: state vectors as arrays, gates as matrix multiplications, the Born rule as a norm-squared calculation, the Bloch sphere drawn by hand. That ground-up approach was deliberate — it builds the physical intuition that separates a practitioner from a user. Now you are ready to step into the car. **PennyLane** is a mature, open-source Python framework developed by [Xanadu](https://xanadu.ai/) that automates all of that bookkeeping so you can think at the level of *algorithms* rather than *linear algebra*.
+In the earlier hands-on sessions of this series, you assembled quantum computing from the ground up using raw NumPy: state vectors as arrays, gates as matrix multiplications, the Born rule as a norm-squared calculation, the Bloch sphere drawn by hand. That ground-up approach was deliberate — it builds the physical intuition that separates a practitioner from a user. Now you are ready to step into the car. **PennyLane** is a mature, open-source Python framework developed by [Xanadu](https://xanadu.ai/) that automates all of that bookkeeping so you can think at the level of *algorithms* rather than *linear algebra*.
 
 What makes PennyLane special — and different from most other frameworks — is its deep commitment to **differentiable quantum computing**. Just as automatic differentiation revolutionised classical machine learning (enabling frameworks like PyTorch and TensorFlow), PennyLane brings the same idea to quantum circuits. You can compute the gradient of any circuit output with respect to any gate parameter, automatically, and in a way that is provably correct even on real quantum hardware (no classical simulation required). This notebook introduces that idea from scratch, walks you through your first differentiable circuit, shows you how entanglement looks in the framework, and closes with a full hybrid quantum–classical optimisation loop — the blueprint for virtually all Variational Quantum Algorithms and quantum machine learning.
 
@@ -256,7 +256,7 @@ pennylane getting started, differentiable quantum computing, parameter shift rul
 quantum automatic differentiation, hybrid quantum classical, variational quantum algorithm,
 VQA tutorial, quantum machine learning, QML tutorial, quantum gradient descent,
 pennylane vs qiskit, quantum circuit training, bell state pennylane, quantum entanglement demo,
-pennylane expval probs state, quantum computing FDP, pennylane GradientDescentOptimizer,
+pennylane expval probs state, Quantum Computing Education Series by Trinexis, pennylane GradientDescentOptimizer,
 qml.grad tutorial, quantum circuit drawing, pennylane draw, pennylane device backend,
 default.qubit lightning.qubit, hardware agnostic quantum, pennylane numpy, trainable quantum circuit,
 quantum optimizer python, born rule probabilities, superposition measurement, hadamard gate demo,
@@ -266,11 +266,11 @@ quantum software framework, quantum parameter optimization, shots simulation, qu
 
 ---
 
-## Related Notebooks in This FDP Series
+## Related Notebooks in This series Series
 
 | # | Notebook | Topic |
 |---|----------|-------|
-| 1–2 | [Demo1-2 — Double Slit and Stern–Gerlach](Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb) | Wave–particle duality, foundational quantum experiments |
+| 1–2 | [Demo1-2 — Double Slit and Stern–Gerlach](Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb) | Wave–particle duality, foundational quantum experiments |
 | 3 | [Demo3 — QM Postulates, Bra-Ket, and the Bloch Sphere](Demo3_QMPostulates_BraKet_Bloch.ipynb) | Dirac notation, state vectors, single-qubit geometry |
 | 4 | [Demo4 — Bloch Sphere and Density Matrices](Demo4_BlochSphere_DensityMatrix.ipynb) | Mixed states, density operator formalism |
 | 5 | [Demo5 — Purity, Coherence, and Entanglement](Demo5_Purity_Coherence_Entanglement.ipynb) | Quantum information measures, entanglement criteria |
@@ -283,10 +283,10 @@ quantum software framework, quantum parameter optimization, shots simulation, qu
 | 12 | [Demo12b — Qiskit Oracles, Primitives, and Deutsch–Jozsa](Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb) | Oracle-based algorithms, quantum speedup |
 | 13 | [Demo13b — Bernstein–Vazirani Algorithm](Demo13b_Bernstein_Vazirani_Qiskit.ipynb) | Hidden bit-string recovery, interference |
 | 14 | [Demo14 — Simon's Algorithm](Demo14_Simons_Algorithm_Qiskit.ipynb) | Exponential speedup, period finding |
-| 15 | [Demo15 — Grover's Search Algorithm](Demo15_Grover_Qiskit_FDP.ipynb) | Quadratic speedup, amplitude amplification |
+| 15 | [Demo15 — Grover's Search Algorithm](Demo15_Grover_Qiskit.ipynb) | Quadratic speedup, amplitude amplification |
 
 ---
 
-*Prepared for the Quantum Computing Faculty Development Programme, June–July 2026.*
+*Quantum Computing Education Series by Trinexis.*
 *Notebook runs on Google Colab — use Runtime → Run all for a complete end-to-end execution.*
 *PennyLane documentation: [https://docs.pennylane.ai/](https://docs.pennylane.ai/) | PennyLane demos: [https://pennylane.ai/qml/](https://pennylane.ai/qml/)*

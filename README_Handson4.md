@@ -13,7 +13,7 @@
 
 Imagine you are trying to describe the position of a point on the surface of the Earth. You need exactly two numbers — latitude and longitude — no matter how complicated the terrain looks from the ground. Remarkably, a single qubit (the fundamental unit of quantum information) lives in a space that, after accounting for all physical redundancies, is also characterised by exactly two real numbers. Those two numbers correspond to a point on a sphere — the **Bloch sphere** — and this notebook is devoted entirely to understanding that sphere, exploiting it, and then extending it to richer situations where a sphere alone is no longer enough.
 
-This notebook is the fourth in the FDP on Quantum Computing series. After establishing the five postulates of quantum mechanics, the Pauli matrices, and the algebra of state vectors in the previous notebooks, we now shift to a completely geometric and intuitive picture of single-qubit quantum mechanics. Every state, every quantum gate, every measurement outcome, and every notion of quantum noise finds a vivid visual counterpart on or inside the Bloch sphere. You will build the drawing tools from scratch in NumPy and Matplotlib, drive them with interactive sliders, and watch animations that make abstract unitary evolution feel almost tangible.
+This notebook is the fourth in the series on Quantum Computing series. After establishing the five postulates of quantum mechanics, the Pauli matrices, and the algebra of state vectors in the previous notebooks, we now shift to a completely geometric and intuitive picture of single-qubit quantum mechanics. Every state, every quantum gate, every measurement outcome, and every notion of quantum noise finds a vivid visual counterpart on or inside the Bloch sphere. You will build the drawing tools from scratch in NumPy and Matplotlib, drive them with interactive sliders, and watch animations that make abstract unitary evolution feel almost tangible.
 
 The second half of the notebook introduces the **density matrix**, which is the key to describing three of the most important phenomena in real quantum systems: statistical uncertainty in state preparation, decoherence caused by environmental coupling, and the reduced description of one partner in an entangled pair. The density matrix is not a replacement for state vectors — it is a generalisation that contains them as a special case — and this notebook gives you the tools and the geometric intuition (the Bloch ball, not just the Bloch sphere) to work with it confidently. Everything built here — the helper functions, the visualisation routines, the dephasing model — feeds directly into the next notebook on two-qubit states, Bell pairs, and the CHSH inequality.
 
@@ -241,7 +241,7 @@ spinor, spin half, quantum superposition, quantum state, mixed state,
 pure state, quantum decoherence, dephasing channel, quantum noise,
 purity measure, quantum information theory, Stern-Gerlach experiment,
 quantum measurement, Born rule, quantum visualization, ipywidgets,
-matplotlib 3d, quantum pedagogy, FDP quantum computing, quantum entanglement,
+matplotlib 3d, quantum pedagogy, quantum computing, quantum entanglement,
 qubit parameterization, bloch vector, quantum bloch ball, quantum coherence,
 bloch sphere animation, quantum gates visualization, hadamard gate,
 quantum foundations, quantum hardware noise, reduced density matrix,
@@ -254,7 +254,7 @@ amplitude damping, quantum channel, numpy quantum simulation
 
 | # | Notebook | Topics |
 |---|---|---|
-| 1–2 | [Demo1-2\_Double\_Slit\_and\_Stern\_Gerlach\_FDP.ipynb](Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb) | Double-slit interference, Stern–Gerlach experiment, probability amplitudes |
+| 1–2 | [Demo1-2\_Double\_Slit\_and\_Stern\_Gerlach\.ipynb](Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb) | Double-slit interference, Stern–Gerlach experiment, probability amplitudes |
 | 3 | [Demo3\_QMPostulates\_BraKet\_Bloch.ipynb](Demo3_QMPostulates_BraKet_Bloch.ipynb) | Five postulates of QM, Dirac notation, Pauli algebra |
 | **4** | **[Demo4\_BlochSphere\_DensityMatrix.ipynb](Demo4_BlochSphere_DensityMatrix.ipynb)** | **Bloch sphere, density matrix, dephasing — this notebook** |
 | 5 | [Demo5\_Purity\_Coherence\_Entanglement.ipynb](Demo5_Purity_Coherence_Entanglement.ipynb) | Purity, coherence measures, two-qubit entanglement |
@@ -267,9 +267,9 @@ amplitude damping, quantum channel, numpy quantum simulation
 | 12 | [Demo12b\_Qiskit\_Oracles\_Primitives\_DJ.ipynb](Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb) | Oracles, Deutsch–Jozsa algorithm |
 | 13 | [Demo13b\_Bernstein\_Vazirani\_Qiskit.ipynb](Demo13b_Bernstein_Vazirani_Qiskit.ipynb) | Bernstein–Vazirani algorithm |
 | 14 | [Demo14\_Simons\_Algorithm\_Qiskit.ipynb](Demo14_Simons_Algorithm_Qiskit.ipynb) | Simon's algorithm |
-| 15 | [Demo15\_Grover\_Qiskit\_FDP.ipynb](Demo15_Grover_Qiskit_FDP.ipynb) | Grover's search algorithm |
+| 15 | [Demo15\_Grover\_Qiskit\.ipynb](Demo15_Grover_Qiskit.ipynb) | Grover's search algorithm |
 
 ---
 
-*Prepared for the Faculty Development Programme (FDP) on Quantum Computing, June–July 2026.*
+*Prepared for the Quantum Computing Education Series by Trinexis, 2026.*
 *All code requires only NumPy, Matplotlib, and ipywidgets — no quantum hardware access needed.*

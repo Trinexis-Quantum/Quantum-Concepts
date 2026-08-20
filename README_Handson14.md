@@ -5,7 +5,7 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?logo=opensourceinitiative&logoColor=white)
 
-> **Faculty Development Programme · Quantum Computing · IIT Roorkee**
+> **Education Series · Quantum Computing · Trinexis**
 
 ---
 
@@ -312,7 +312,7 @@ A closing markdown cell synthesises the key ideas, presents the classical vs. qu
 
 ## Related Notebooks
 
-All notebooks in the **Hands-On Quantum Computing** series (IIT Roorkee FDP):
+All notebooks in the **Hands-On Quantum Computing** series (Trinexis):
 
 | # | Title | Link |
 |---|-------|-------|
@@ -343,8 +343,8 @@ exponential quantum speedup, query complexity, birthday paradox quantum, quantum
 quantum circuit python, aer simulator, qiskit-aer, depolarizing noise, noisy quantum simulation,
 quantum error mitigation, quantum post-processing, XOR period finding, bitwise XOR quantum,
 quantum measurement, born rule, quantum entanglement oracle, hadamard gate, CNOT gate,
-two-to-one function, one-to-one function, quantum algorithm lecture, IIT Roorkee quantum,
-faculty development programme quantum computing, hands-on quantum, undergraduate quantum,
+two-to-one function, one-to-one function, quantum algorithm lecture, Trinexis quantum,
+Trinexis quantum computing education series, hands-on quantum, undergraduate quantum,
 quantum computing course, quantum linear algebra, null space GF2, quantum Fourier transform,
 Shor's algorithm precursor, quantum vs classical complexity, BQP complexity class,
 quantum computing Python, numpy quantum simulation, quantum computing Jupyter notebook

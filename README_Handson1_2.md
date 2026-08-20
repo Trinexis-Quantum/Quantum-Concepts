@@ -5,7 +5,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-2.x-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557c)](https://matplotlib.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![FDP Course](https://img.shields.io/badge/Course-Quantum%20Computing%20FDP%202026-blueviolet)](.)
+[![Course](https://img.shields.io/badge/Course-Quantum%20Computing%20FDP%202026-blueviolet)](.)
 
 ---
 
@@ -280,7 +280,7 @@ A summary table maps each experiment to the quantum-computing concept it introdu
 
 <!-- 
 SEO TAGS / KEYWORDS
-quantum computing tutorial, double slit experiment, Stern-Gerlach experiment, qubit, quantum superposition, probability amplitude, Born rule, wave-particle duality, quantum interference, which-path information, decoherence, Bloch sphere, Hadamard gate, Pauli matrices, single qubit gates, quantum measurement, wavefunction collapse, Feynman lectures, Deutsch algorithm, quantum advantage, quantum computing education, faculty development program, quantum computing FDP, hands-on quantum, quantum simulation Python, NumPy quantum, quantum amplitude, complex amplitude, interference fringe, incompatible observables, spin half, spin measurement, quantum probability, quantum algorithms introductory, quantum computing beginner
+quantum computing tutorial, double slit experiment, Stern-Gerlach experiment, qubit, quantum superposition, probability amplitude, Born rule, wave-particle duality, quantum interference, which-path information, decoherence, Bloch sphere, Hadamard gate, Pauli matrices, single qubit gates, quantum measurement, wavefunction collapse, Feynman lectures, Deutsch algorithm, quantum advantage, quantum computing education, faculty development program, Quantum Computing Education Series by Trinexis, hands-on quantum, quantum simulation Python, NumPy quantum, quantum amplitude, complex amplitude, interference fringe, incompatible observables, spin half, spin measurement, quantum probability, quantum algorithms introductory, quantum computing beginner
 -->
 
 ---
@@ -289,7 +289,7 @@ quantum computing tutorial, double slit experiment, Stern-Gerlach experiment, qu
 
 | # | Notebook | Topic |
 |---|----------|-------|
-| **1–2** | `Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb` | **You are here** — Double slit, Stern–Gerlach, qubit foundations |
+| **1–2** | `Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb` | **You are here** — Double slit, Stern–Gerlach, qubit foundations |
 | 3 | `Demo3_QMPostulates_BraKet_Bloch.ipynb` | Quantum mechanics postulates, Dirac notation, Bloch sphere (deeper) |
 | 4 | `Demo4_BlochSphere_DensityMatrix.ipynb` | Density matrices, mixed states, Bloch sphere for mixed states |
 | 5 | `Demo5_Purity_Coherence_Entanglement.ipynb` | Purity, coherence measures, entanglement |
@@ -302,9 +302,9 @@ quantum computing tutorial, double slit experiment, Stern-Gerlach experiment, qu
 | 12 | `Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb` | Oracles and the Deutsch–Jozsa algorithm in Qiskit |
 | 13 | `Demo13b_Bernstein_Vazirani_Qiskit.ipynb` | Bernstein–Vazirani algorithm |
 | 14 | `Demo14_Simons_Algorithm_Qiskit.ipynb` | Simon's algorithm |
-| 15 | `Demo15_Grover_Qiskit_FDP.ipynb` | Grover's search algorithm |
+| 15 | `Demo15_Grover_Qiskit.ipynb` | Grover's search algorithm |
 
 ---
 
 *Faculty Development Program — Quantum Computing, 2026*
-*Notebook authored for the FDP series. Simulations built with NumPy 2.0 and Matplotlib; no quantum framework required for this notebook.*
+*Notebook authored for the series series. Simulations built with NumPy 2.0 and Matplotlib; no quantum framework required for this notebook.*

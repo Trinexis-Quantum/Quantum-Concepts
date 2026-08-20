@@ -6,9 +6,9 @@
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7%2B-11557c)](https://matplotlib.org/)
 [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.0%2B-informational)](https://ipywidgets.readthedocs.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![FDP 2026](https://img.shields.io/badge/FDP-Quantum%20Computing%202026-purple)](.)
+[![2026](https://img.shields.io/badge/FDP-Quantum%20Computing%202026-purple)](.)
 
-> **Faculty Development Programme · Quantum Computing · June–July 2026**
+> **Education Series · Quantum Computing · 2026**
 > File: `Demo5_Purity_Coherence_Entanglement.ipynb`
 
 ---
@@ -207,7 +207,7 @@ Section 5.5 is the second interactive demonstration: the family $\cos\theta\,|00
 
 ### Section 6 — Synthesis: Decoherence as Entanglement
 
-This section closes the narrative arc of the entire FDP series. The controlled-rotation model makes the decoherence mechanism microscopic and calculable. The plot of system coherence vs. system-detector entanglement as $\theta$ varies from $0$ to $\pi/2$ is the single most important figure in the notebook: the two curves are complementary, and together they demonstrate that interference is not destroyed — it migrates into correlations with the environment.
+This section closes the narrative arc of the entire series. The controlled-rotation model makes the decoherence mechanism microscopic and calculable. The plot of system coherence vs. system-detector entanglement as $\theta$ varies from $0$ to $\pi/2$ is the single most important figure in the notebook: the two curves are complementary, and together they demonstrate that interference is not destroyed — it migrates into correlations with the environment.
 
 ### Section 7 — Exercises (★ to ★★★)
 
@@ -250,7 +250,7 @@ Six exercises with collapsible solutions scale from warm-up (E1: compute purity 
 <!--
 SEO TAGS / KEYWORDS — for discoverability
 
-quantum computing tutorial, density matrix python, purity quantum state, von neumann entropy, quantum coherence, l1 norm coherence, dephasing channel, qubit mixed state, Bloch sphere visualization, tensor product qubits, kronecker product numpy, quantum entanglement, Bell states, partial trace implementation, reduced density matrix, Schmidt decomposition, singular value decomposition quantum, entanglement entropy, decoherence quantum computing, wave particle duality, coherence distinguishability duality, quantum information theory, multiqubit systems, quantum superposition vs mixture, ensemble ambiguity, quantum education, Faculty Development Programme quantum, jupyter notebook quantum mechanics, numpy quantum computing, open quantum systems, quantum noise, T2 dephasing, quantum state tomography, quantum resource theory, maximally entangled state, quantum error correction basics, FDP 2026 quantum, quantum mechanics Python, quantum computing course material
+quantum computing tutorial, density matrix python, purity quantum state, von neumann entropy, quantum coherence, l1 norm coherence, dephasing channel, qubit mixed state, Bloch sphere visualization, tensor product qubits, kronecker product numpy, quantum entanglement, Bell states, partial trace implementation, reduced density matrix, Schmidt decomposition, singular value decomposition quantum, entanglement entropy, decoherence quantum computing, wave particle duality, coherence distinguishability duality, quantum information theory, multiqubit systems, quantum superposition vs mixture, ensemble ambiguity, quantum education, Education Series quantum, jupyter notebook quantum mechanics, numpy quantum computing, open quantum systems, quantum noise, T2 dephasing, quantum state tomography, quantum resource theory, maximally entangled state, quantum error correction basics, 2026 quantum, quantum mechanics Python, quantum computing course material
 -->
 
 ---
@@ -259,7 +259,7 @@ quantum computing tutorial, density matrix python, purity quantum state, von neu
 
 | # | Notebook | Topic |
 |---|---|---|
-| 1–2 | [`Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb`](./Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb) | Double-slit experiment, Stern–Gerlach, wave-particle duality |
+| 1–2 | [`Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb`](./Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb) | Double-slit experiment, Stern–Gerlach, wave-particle duality |
 | 3 | [`Demo3_QMPostulates_BraKet_Bloch.ipynb`](./Demo3_QMPostulates_BraKet_Bloch.ipynb) | QM postulates, bra-ket notation, Bloch sphere |
 | 4 | [`Demo4_BlochSphere_DensityMatrix.ipynb`](./Demo4_BlochSphere_DensityMatrix.ipynb) | Bloch sphere geometry, density matrix introduction |
 | **5** | **`Demo5_Purity_Coherence_Entanglement.ipynb`** ← *you are here* | **Purity, coherence, entanglement, multiqubit systems** |
@@ -272,8 +272,8 @@ quantum computing tutorial, density matrix python, purity quantum state, von neu
 | 12b | [`Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb`](./Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb) | Deutsch–Jozsa algorithm, oracles, Qiskit primitives |
 | 13b | [`Demo13b_Bernstein_Vazirani_Qiskit.ipynb`](./Demo13b_Bernstein_Vazirani_Qiskit.ipynb) | Bernstein–Vazirani algorithm |
 | 14 | [`Demo14_Simons_Algorithm_Qiskit.ipynb`](./Demo14_Simons_Algorithm_Qiskit.ipynb) | Simon's algorithm |
-| 15 | [`Demo15_Grover_Qiskit_FDP.ipynb`](./Demo15_Grover_Qiskit_FDP.ipynb) | Grover's search algorithm |
+| 15 | [`Demo15_Grover_Qiskit.ipynb`](./Demo15_Grover_Qiskit.ipynb) | Grover's search algorithm |
 
 ---
 
-*Prepared for the Faculty Development Programme in Quantum Computing, June–July 2026. Notebook designed to run on Google Colab or any local Jupyter environment with Python 3.9+, NumPy, Matplotlib, and ipywidgets.*
+*Prepared for the Education Series in Quantum Computing, 2026. Notebook designed to run on Google Colab or any local Jupyter environment with Python 3.9+, NumPy, Matplotlib, and ipywidgets.*

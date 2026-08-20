@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 
-> **Capstone of the Software-Ecosystem Session** — Quantum Computing Faculty Development Programme (FDP), June–July 2026
+> **Capstone of the Software-Ecosystem Session** — Quantum Computing Education Series by Trinexis
 
 ---
 
@@ -199,7 +199,7 @@ QNode pennylane
 QuantumCircuit qiskit
 automatic differentiation quantum
 quantum optimisation python
-quantum computing FDP
+Quantum Computing Education Series by Trinexis
 qiskit estimator primitives
 pennylane qml.grad
 quantum computing jupyter notebook
@@ -220,7 +220,7 @@ quantum computing beginner
 
 | # | Notebook | Topic |
 |---|---|---|
-| Demo 1–2 | `Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb` | Wave-particle duality, Stern–Gerlach experiment |
+| Demo 1–2 | `Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb` | Wave-particle duality, Stern–Gerlach experiment |
 | Demo 3 | `Demo3_QMPostulates_BraKet_Bloch.ipynb` | QM postulates, Dirac notation, Bloch sphere |
 | Demo 4 | `Demo4_BlochSphere_DensityMatrix.ipynb` | Density matrix formalism, mixed states |
 | Demo 5 | `Demo5_Purity_Coherence_Entanglement.ipynb` | Purity, coherence, entanglement measures |
@@ -233,8 +233,8 @@ quantum computing beginner
 | Demo 12b | `Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb` | Oracles, Deutsch–Jozsa algorithm |
 | Demo 13b | `Demo13b_Bernstein_Vazirani_Qiskit.ipynb` | Bernstein–Vazirani algorithm |
 | Demo 14 | `Demo14_Simons_Algorithm_Qiskit.ipynb` | Simon's algorithm |
-| Demo 15 | `Demo15_Grover_Qiskit_FDP.ipynb` | Grover's search algorithm |
+| Demo 15 | `Demo15_Grover_Qiskit.ipynb` | Grover's search algorithm |
 
 ---
 
-*Prepared for the Quantum Computing Faculty Development Programme (FDP), June–July 2026. Runs on Google Colab — Runtime → Run all.*
+*Prepared for the Quantum Computing Education Series by Trinexis. Runs on Google Colab — Runtime → Run all.*

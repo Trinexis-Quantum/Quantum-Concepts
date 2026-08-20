@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![FDP](https://img.shields.io/badge/Course-IIT%20Roorkee%20FDP%202026-orange)](https://www.iitr.ac.in)
 
-> **Faculty Development Programme in Quantum Computing · IIT Roorkee · June–July 2026**
+> **Education Series in Quantum Computing · Trinexis · 2026**
 > *Hands-On Session 15 of 15*
 
 ---
@@ -261,7 +261,7 @@ unstructured search
 quantum amplitude
 qiskit 2.5
 quantum circuits python
-IIT Roorkee FDP quantum computing
+Trinexis quantum computing
 faculty development programme quantum
 grover rotation geometry
 quantum oracle construction
@@ -280,11 +280,11 @@ quantum amplitude estimation
 
 ---
 
-## Related Notebooks in This FDP Series
+## Related Notebooks in This series Series
 
 | # | Notebook | Topic |
 |---|---|---|
-| 1–2 | [Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb](Demo1-2_Double_Slit_and_Stern_Gerlach_FDP.ipynb) | Double-slit experiment and Stern-Gerlach — quantum foundations |
+| 1–2 | [Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb](Demo1-2_Double_Slit_and_Stern_Gerlach.ipynb) | Double-slit experiment and Stern-Gerlach — quantum foundations |
 | 3 | [Demo3_QMPostulates_BraKet_Bloch.ipynb](Demo3_QMPostulates_BraKet_Bloch.ipynb) | QM postulates, Dirac notation, Bloch sphere |
 | 4 | [Demo4_BlochSphere_DensityMatrix.ipynb](Demo4_BlochSphere_DensityMatrix.ipynb) | Bloch sphere and density matrices |
 | 5 | [Demo5_Purity_Coherence_Entanglement.ipynb](Demo5_Purity_Coherence_Entanglement.ipynb) | Purity, coherence, and entanglement measures |
@@ -297,8 +297,8 @@ quantum amplitude estimation
 | 12 | [Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb](Demo12b_Qiskit_Oracles_Primitives_DJ.ipynb) | Oracles, primitives, and Deutsch-Jozsa algorithm |
 | 13 | [Demo13b_Bernstein_Vazirani_Qiskit.ipynb](Demo13b_Bernstein_Vazirani_Qiskit.ipynb) | Bernstein-Vazirani algorithm and phase kickback |
 | 14 | [Demo14_Simons_Algorithm_Qiskit.ipynb](Demo14_Simons_Algorithm_Qiskit.ipynb) | Simon's algorithm and hidden subgroup structure |
-| **15** | **Demo15_Grover_Qiskit_FDP.ipynb** *(this notebook)* | **Grover's search algorithm** |
+| **15** | **Demo15_Grover_Qiskit.ipynb** *(this notebook)* | **Grover's search algorithm** |
 
 ---
 
-*Prepared for the IIT Roorkee Faculty Development Programme in Quantum Computing, June–July 2026. Notebook authored with Qiskit 2.5.0 / Aer 0.17.2. All simulations run on the Aer statevector and shot-based simulators.*
+*Prepared for the Trinexis Education Series in Quantum Computing, 2026. Notebook authored with Qiskit 2.5.0 / Aer 0.17.2. All simulations run on the Aer statevector and shot-based simulators.*

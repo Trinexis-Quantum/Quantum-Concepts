@@ -1,5 +1,5 @@
 <!-- SEO META
-quantum computing, qiskit, pennylane, quantum algorithms, quantum gates, grover algorithm, simon algorithm, bernstein vazirani, deutsch jozsa, quantum circuits, bloch sphere, density matrix, quantum entanglement, quantum noise, quantum information, quantum hackathon, quantum challenge, hands-on quantum computing, quantum programming, quantum computing tutorial, quantum computing for beginners, quantum computing python, IBM quantum, quantum machine learning, quantum computing education, FDP quantum computing, quantum computing course, quantum computing research, qiskit tutorial, pennylane tutorial, quantum superposition, quantum interference, stern gerlach, double slit experiment, bra-ket notation, quantum postulates, purity coherence, Kraus operators, quantum error correction, NISQ, variational quantum algorithms
+quantum computing, qiskit, pennylane, quantum algorithms, quantum gates, grover algorithm, simon algorithm, bernstein vazirani, deutsch jozsa, quantum circuits, bloch sphere, density matrix, quantum entanglement, quantum noise, quantum information, quantum hackathon, quantum challenge, hands-on quantum computing, quantum programming, quantum computing tutorial, quantum computing for beginners, quantum computing python, IBM quantum, quantum machine learning, quantum computing education, quantum computing, quantum computing course, quantum computing research, qiskit tutorial, pennylane tutorial, quantum superposition, quantum interference, stern gerlach, double slit experiment, bra-ket notation, quantum postulates, purity coherence, Kraus operators, quantum error correction, NISQ, variational quantum algorithms
 -->
 
 <div align="center">
@@ -15,7 +15,7 @@ quantum computing, qiskit, pennylane, quantum algorithms, quantum gates, grover 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/Trinexis-Quantum/Quantum-Concepts?style=for-the-badge&color=yellow)](https://github.com/Trinexis-Quantum/Quantum-Concepts/stargazers)
 
-**FDP Quantum Computing Lab Series · June–July 2026 · Trinexis Quantum**
+**Quantum Computing Education Series by Trinexis**
 
 [📚 Start Learning](#-learning-path--roadmap) · [🗺️ Roadmap](#-learning-path--roadmap) · [🏆 Hackathons](#-quantum-hackathons-challenges--projects) · [📖 Notebooks](#-notebook-series--what-youll-learn) · [⚙️ Setup](#-getting-started)
 
@@ -78,7 +78,7 @@ Complete the acts in order. Each notebook builds on the last. By the end you wil
 
 ---
 
-#### [Hands-On 1 & 2 — Double Slit Experiment & Stern-Gerlach](Handson1&2_Double_Slit_and_Stern_Gerlach_FDP.ipynb) · [`README`](README_Handson1_2.md)
+#### [Hands-On 1 & 2 — Double Slit Experiment & Stern-Gerlach](Handson1&2_Double_Slit_and_Stern_Gerlach.ipynb) · [`README`](README_Handson1_2.md)
 
 > *"Before you can program a qubit, you must believe it exists."*
 
@@ -304,7 +304,7 @@ Simon's algorithm solves a hidden symmetry problem exponentially faster than any
 
 ---
 
-#### [Hands-On 15 — Grover's Search Algorithm](Handson15_Grover_Qiskit_FDP.ipynb) · [`README`](README_Handson15.md)
+#### [Hands-On 15 — Grover's Search Algorithm](Handson15_Grover_Qiskit.ipynb) · [`README`](README_Handson15.md)
 
 > *"Searching a billion-entry database in 31,623 steps instead of 500 million. That is Grover's quadratic speedup — and it is real."*
 
@@ -420,7 +420,7 @@ QiskitRuntimeService.save_account(channel="ibm_quantum", token="YOUR_TOKEN")
 
 | # | Notebook | Topic | Key Concepts | README |
 |---|---|---|---|---|
-| 1&2 | [Handson1&2](Handson1&2_Double_Slit_and_Stern_Gerlach_FDP.ipynb) | Double Slit & Stern-Gerlach | Superposition, interference, spin, Born rule | [📖](README_Handson1_2.md) |
+| 1&2 | [Handson1&2](Handson1&2_Double_Slit_and_Stern_Gerlach.ipynb) | Double Slit & Stern-Gerlach | Superposition, interference, spin, Born rule | [📖](README_Handson1_2.md) |
 | 3 | [Handson3](Handson3_QMPostulates_BraKet_Bloch.ipynb) | QM Postulates & Bra-Ket | 5 postulates, Dirac notation, Bloch sphere | [📖](README_Handson3.md) |
 | 4 | [Handson4](Handson4_BlochSphere_DensityMatrix.ipynb) | Bloch Sphere & Density Matrix | Mixed states, von Neumann entropy, purity | [📖](README_Handson4.md) |
 | 5 | [Handson5](Handson5_Purity_Coherence_Entanglement.ipynb) | Purity, Coherence & Entanglement | Bell states, partial trace, concurrence | [📖](README_Handson5.md) |
@@ -433,7 +433,7 @@ QiskitRuntimeService.save_account(channel="ibm_quantum", token="YOUR_TOKEN")
 | 12 | [Handson12](Handson12_Qiskit_Oracles_Primitives_DJ.ipynb) | Oracles & Deutsch-Jozsa | Phase kickback, oracles, Qiskit Primitives | [📖](README_Handson12b.md) |
 | 13 | [Handson13](Handson13_Bernstein_Vazirani_Qiskit.ipynb) | Bernstein-Vazirani | Hidden string, quantum parallelism | [📖](README_Handson13.md) |
 | 14 | [Handson14](Handson14_Simons_Algorithm_Qiskit.ipynb) | Simon's Algorithm | XOR periodicity, GF(2) linear algebra | [📖](README_Handson14.md) |
-| 15 | [Handson15](Handson15_Grover_Qiskit_FDP.ipynb) | Grover's Algorithm | Amplitude amplification, oracle, diffusion | [📖](README_Handson15.md) |
+| 15 | [Handson15](Handson15_Grover_Qiskit.ipynb) | Grover's Algorithm | Amplitude amplification, oracle, diffusion | [📖](README_Handson15.md) |
 
 ---
 
@@ -546,7 +546,7 @@ density matrix python, quantum entanglement code, quantum noise models, kraus op
 quantum information theory, variational quantum eigensolver, quantum machine learning,
 quantum hackathon preparation, IBM quantum computing, quantum computing for students,
 quantum computing research, NISQ algorithms, quantum computing roadmap, hands-on quantum,
-quantum computing FDP, quantum computing course 2026, quantum superposition code,
+Quantum Computing Education Series by Trinexis, quantum computing course 2026, quantum superposition code,
 quantum measurement, bra-ket notation, quantum computing from scratch
 -->
 
@@ -573,16 +573,12 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 
 ## 🙏 Acknowledgements
 
-This notebook series was developed for the **Faculty Development Programme (FDP) on Quantum Computing** held in **June–July 2026**, organised by **Trinexis Quantum**. We thank all faculty participants, student contributors, and the open-source quantum computing community — especially the Qiskit and PennyLane teams — whose tools make this kind of hands-on education possible.
+This notebook series was developed for the **Quantum Computing Education Series by Trinexis** held in **2026**, by **Trinexis Quantum**. We thank all participants and the open-source quantum computing community, especially the Qiskit and PennyLane teams.
 
 ---
 
 <div align="center">
 
-⭐ **Star this repo** if it helped you on your quantum journey!
-
-*"The universe is not only stranger than we suppose, but stranger than we can suppose."* — J.B.S. Haldane
-
-**[Trinexis Quantum](https://github.com/Trinexis-Quantum)** · Built with ❤️ for the quantum community
+**[Trinexis Quantum](https://github.com/Trinexis-Quantum)**
 
 </div>
